@@ -66,6 +66,7 @@ export class ProductRepository {
 
   async countProducts(params: { where?: Prisma.ProductWhereInput }) {
     const { where = {} } = params;
+    console.log("Prisma keys:", Object.keys(this.prisma));
     return prisma.product.count({ where });
   }
 
