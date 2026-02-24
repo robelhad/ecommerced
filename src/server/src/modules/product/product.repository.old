@@ -1,17 +1,17 @@
 import prisma from "@/infra/database/database.config";
-import { Prisma } from "@prisma/client";
+//import { Prisma } from "@prisma/client";
 //import type { Prisma } from "@prisma/client";
+import type { Prisma} from "@prisma/client";
 
 type ProductClient = typeof prisma.product;
 export class ProductRepository {
   async findManyProducts(params: {
-    where?: Prisma.ProductWhereInput & { categorySlug?: string };
+    where?: Parameters<ProductClient["findMany"]>[0]["where"] & { categorySlug?: string };
     orderBy?:
-      | Prisma.ProductOrderByWithRelationInput
-      | Prisma.ProductOrderByWithRelationInput[];
+      Parameters<ProductClient["findMany"]>[0]["orderBy"];
     skip?: number;
     take?: number;
-    select?: Prisma.ProductSelect;
+    select?: Parameters<ProductClient["findMany"]>[0]["select"];
   }) {
     const {
       where = {},
@@ -23,7 +23,7 @@ export class ProductRepository {
 
     const { categorySlug, ...restWhere } = where;
 
-    const finalWhere: Prisma.ProductWhereInput = {
+    const finalWhere = {
       ...restWhere,
       ...(categorySlug
         ? {
@@ -39,7 +39,7 @@ export class ProductRepository {
         : {}),
     };
 
-    const queryOptions: any = {
+    const queryOptions: Parameters<ProductClient["findMany"]>[0] = {
       where: finalWhere,
       orderBy,
       skip,
@@ -66,10 +66,10 @@ export class ProductRepository {
     return prisma.product.findMany(queryOptions);
   }
 
-  async countProducts(params: { where?: Prisma.ProductWhereInput }) {
-    const { where = {} } = params;
+  async countProducts(params: { where?: Parameters<ProductClient["count"]>[0]["where"]; }) {
+    //const { where = {} } = params;
   
-    return prisma.product.count({ where });
+    return prisma.product.count({ where: params.where });
   }
 
   async findProductById(id: string) {
