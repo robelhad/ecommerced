@@ -371,3 +371,180 @@ ConnectorError(ConnectorError { user_facing_error: None, kind: QueryError(Postgr
 [2026-02-15T06:31:22.442Z] [31MERROR[39M: Invalid access token, please log in
 [2026-02-15T06:31:22.516Z] [31MERROR[39M: Invalid access token, please log in
 [2026-02-15T06:35:05.094Z] [31MERROR[39M: Invalid access token, please log in
+[2026-02-15T09:35:38.225Z] [31MERROR[39M: Invalid access token, please log in
+[2026-02-15T09:35:38.500Z] [31MERROR[39M: Invalid access token, please log in
+[2026-02-15T09:35:48.919Z] [31MERROR[39M: Invalid access token, please log in
+[2026-02-15T09:35:48.964Z] [31MERROR[39M: Invalid access token, please log in
+[2026-02-16T05:58:26.136Z] [31MERROR[39M: Invalid access token, please log in
+[2026-02-16T05:58:26.505Z] [31MERROR[39M: User not found
+[2026-02-16T06:11:12.920Z] [31MERROR[39M: Invalid access token, please log in
+[2026-02-16T06:11:13.087Z] [31MERROR[39M: User not found
+[2026-02-20T04:20:49.630Z] [31MERROR[39M: Unauthorized, please log in
+[2026-02-20T04:20:49.879Z] [31MERROR[39M: Refresh token not found
+[2026-02-20T04:21:43.555Z] [31MERROR[39M: Unauthorized, please log in
+[2026-02-20T04:21:43.707Z] [31MERROR[39M: Refresh token not found
+[2026-02-20T04:30:19.886Z] [31MERROR[39M: Unauthorized, please log in
+[2026-02-20T04:30:19.999Z] [31MERROR[39M: Refresh token not found
+[2026-02-20T04:53:49.929Z] [31MERROR[39M: Unauthorized, please log in
+[2026-02-20T04:53:50.018Z] [31MERROR[39M: Refresh token not found
+[2026-02-20T04:54:27.617Z] [31MERROR[39M: Unauthorized, please log in
+[2026-02-20T04:54:27.936Z] [31MERROR[39M: Refresh token not found
+[2026-02-20T04:55:42.768Z] [31MERROR[39M: Unauthorized, please log in
+[2026-02-20T04:55:42.817Z] [31MERROR[39M: Refresh token not found
+[2026-02-20T05:03:19.658Z] [31MERROR[39M: Unauthorized, please log in
+[2026-02-20T05:03:19.950Z] [31MERROR[39M: Refresh token not found
+[2026-02-20T05:03:37.652Z] [31MERROR[39M: Unauthorized, please log in
+[2026-02-20T05:03:37.710Z] [31MERROR[39M: Refresh token not found
+[2026-02-20T05:05:23.646Z] [31MERROR[39M: Unauthorized, please log in
+[2026-02-20T05:05:23.773Z] [31MERROR[39M: Refresh token not found
+[2026-02-20T05:13:15.632Z] [31MERROR[39M: Unauthorized, please log in
+[2026-02-20T05:13:15.933Z] [31MERROR[39M: Refresh token not found
+[2026-02-20T05:53:25.169Z] [31MERROR[39M: Unauthorized, please log in
+[2026-02-20T05:53:25.329Z] [31MERROR[39M: Refresh token not found
+[2026-02-20T05:53:38.449Z] [31MERROR[39M: Unauthorized, please log in
+[2026-02-20T05:53:38.504Z] [31MERROR[39M: Refresh token not found
+[2026-02-20T05:55:13.992Z] [31MERROR[39M: Unauthorized, please log in
+[2026-02-20T05:55:14.620Z] [31MERROR[39M: Refresh token not found
+[2026-02-20T05:56:29.492Z] [31MERROR[39M: Unauthorized, please log in
+[2026-02-20T05:56:29.660Z] [31MERROR[39M: Refresh token not found
+[2026-02-20T06:20:22.418Z] [31MERROR[39M: Unauthorized, please log in
+[2026-02-20T06:20:29.545Z] [31MERROR[39M: Unauthorized, please log in
+[2026-02-20T06:20:29.758Z] [31MERROR[39M: Refresh token not found
+[2026-02-20T06:45:16.099Z] [31MERROR[39M: Unauthorized, please log in
+[2026-02-20T06:45:17.923Z] [31MERROR[39M: Refresh token not found
+[2026-02-20T07:48:00.926Z] [31MERROR[39M: ENOENT: no such file or directory, scandir '/home/robel/assets/seed-images/products'
+[2026-02-20T08:15:27.299Z] [31MERROR[39M: Unauthorized, please log in
+[2026-02-20T08:15:31.775Z] [31MERROR[39M: Refresh token not found
+[2026-02-20T08:23:13.576Z] [31MERROR[39M: Unauthorized, please log in
+[2026-02-20T08:23:32.510Z] [31MERROR[39M: Refresh token not found
+[2026-02-20T08:55:40.330Z] [31MERROR[39M: Unauthorized, please log in
+[2026-02-20T08:55:43.725Z] [31MERROR[39M: Refresh token not found
+[2026-02-20T09:05:59.905Z] [31MERROR[39M: Unauthorized, please log in
+[2026-02-20T09:06:01.019Z] [31MERROR[39M: Refresh token not found
+[2026-02-20T09:13:07.978Z] [31MERROR[39M: Unauthorized, please log in
+[2026-02-20T09:13:08.927Z] [31MERROR[39M: Refresh token not found
+[2026-02-20T09:18:16.688Z] [31MERROR[39M: Unauthorized, please log in
+[2026-02-20T09:18:17.574Z] [31MERROR[39M: Refresh token not found
+[2026-02-20T09:26:55.492Z] [31MERROR[39M: Unauthorized, please log in
+[2026-02-20T09:26:55.854Z] [31MERROR[39M: Refresh token not found
+[2026-02-20T09:37:24.457Z] [31MERROR[39M: Unauthorized, please log in
+[2026-02-20T09:37:25.616Z] [31MERROR[39M: Refresh token not found
+[2026-02-20T09:41:12.366Z] [31MERROR[39M: Unauthorized, please log in
+[2026-02-20T09:41:12.578Z] [31MERROR[39M: Refresh token not found
+[2026-02-20T09:56:35.612Z] [31MERROR[39M: Unauthorized, please log in
+[2026-02-20T09:56:41.248Z] [31MERROR[39M: Refresh token not found
+[2026-02-20T10:04:25.417Z] [31MERROR[39M: Unauthorized, please log in
+[2026-02-20T10:04:33.192Z] [31MERROR[39M: Refresh token not found
+[2026-02-20T10:06:40.416Z] [31MERROR[39M: Unauthorized, please log in
+[2026-02-20T10:06:42.545Z] [31MERROR[39M: Refresh token not found
+[2026-02-20T10:09:01.650Z] [31MERROR[39M: Unauthorized, please log in
+[2026-02-20T10:09:05.647Z] [31MERROR[39M: Refresh token not found
+[2026-02-20T10:31:23.501Z] [31MERROR[39M: Unauthorized, please log in
+[2026-02-20T10:31:26.948Z] [31MERROR[39M: Refresh token not found
+[2026-02-20T10:46:51.312Z] [31MERROR[39M: Unauthorized, please log in
+[2026-02-20T10:46:51.624Z] [31MERROR[39M: Refresh token not found
+[2026-02-20T21:21:43.706Z] [31MERROR[39M: Unauthorized, please log in
+[2026-02-20T21:21:43.843Z] [31MERROR[39M: Refresh token not found
+[2026-02-20T21:23:13.800Z] [31MERROR[39M: Unauthorized, please log in
+[2026-02-20T21:23:13.841Z] [31MERROR[39M: Refresh token not found
+[2026-02-20T21:31:20.119Z] [31MERROR[39M: Unauthorized, please log in
+[2026-02-20T21:31:20.200Z] [31MERROR[39M: Refresh token not found
+[2026-02-20T21:31:58.626Z] [31MERROR[39M: Email or password is incorrect.
+[2026-02-20T21:34:36.355Z] [31MERROR[39M: Unauthorized, please log in
+[2026-02-20T21:34:36.423Z] [31MERROR[39M: Refresh token not found
+[2026-02-20T21:44:45.969Z] [31MERROR[39M: Unauthorized, please log in
+[2026-02-20T21:44:46.058Z] [31MERROR[39M: Refresh token not found
+[2026-02-20T22:06:03.581Z] [31MERROR[39M: Unauthorized, please log in
+[2026-02-20T22:06:03.627Z] [31MERROR[39M: Refresh token not found
+[2026-02-20T22:17:30.733Z] [31MERROR[39M: Unauthorized, please log in
+[2026-02-20T22:17:30.884Z] [31MERROR[39M: Refresh token not found
+[2026-02-20T22:19:47.910Z] [31MERROR[39M: Unauthorized, please log in
+[2026-02-20T22:19:48.029Z] [31MERROR[39M: Refresh token not found
+[2026-02-20T22:19:58.638Z] [31MERROR[39M: Unauthorized, please log in
+[2026-02-20T22:19:58.671Z] [31MERROR[39M: Refresh token not found
+[2026-02-20T22:39:31.587Z] [31MERROR[39M: Invalid access token, please log in
+[2026-02-20T22:39:31.899Z] [31MERROR[39M: Invalid access token, please log in
+[2026-02-20T22:39:49.508Z] [31MERROR[39M: Invalid access token, please log in
+[2026-02-20T22:39:49.565Z] [31MERROR[39M: Invalid access token, please log in
+[2026-02-20T23:10:25.119Z] [31MERROR[39M: Unauthorized, please log in
+[2026-02-20T23:10:25.538Z] [31MERROR[39M: Refresh token not found
+[2026-02-20T23:18:26.162Z] [31MERROR[39M: Unauthorized, please log in
+[2026-02-20T23:18:26.319Z] [31MERROR[39M: Refresh token not found
+[2026-02-20T23:45:35.478Z] [31MERROR[39M: Invalid access token, please log in
+[2026-02-20T23:45:36.106Z] [31MERROR[39M: Invalid access token, please log in
+[2026-02-20T23:47:59.125Z] [31MERROR[39M: Unauthorized, please log in
+[2026-02-20T23:47:59.256Z] [31MERROR[39M: Refresh token not found
+[2026-02-20T23:48:32.899Z] [31MERROR[39M: Email or password is incorrect.
+[2026-02-21T00:38:42.778Z] [31MERROR[39M: Unauthorized, please log in
+[2026-02-21T00:38:43.225Z] [31MERROR[39M: Refresh token not found
+[2026-02-21T00:39:17.435Z] [31MERROR[39M: Email or password is incorrect.
+[2026-02-21T00:43:10.580Z] [31MERROR[39M: Unauthorized, please log in
+[2026-02-21T00:43:12.973Z] [31MERROR[39M: Refresh token not found
+[2026-02-21T00:44:53.954Z] [31MERROR[39M: Email or password is incorrect.
+[2026-02-21T00:46:26.700Z] [31MERROR[39M: Unauthorized, please log in
+[2026-02-21T00:46:27.818Z] [31MERROR[39M: Refresh token not found
+[2026-02-21T00:47:19.929Z] [31MERROR[39M: Email or password is incorrect.
+[2026-02-21T00:49:51.230Z] [31MERROR[39M: Unauthorized, please log in
+[2026-02-21T00:49:52.227Z] [31MERROR[39M: Refresh token not found
+[2026-02-21T00:52:30.223Z] [31MERROR[39M: Unauthorized, please log in
+[2026-02-21T00:52:30.562Z] [31MERROR[39M: Refresh token not found
+[2026-02-21T00:53:05.674Z] [31MERROR[39M: This email is already registered, please log in instead.
+[2026-02-21T01:01:29.284Z] [31MERROR[39M: Unauthorized, please log in
+[2026-02-21T01:01:30.488Z] [31MERROR[39M: Refresh token not found
+[2026-02-21T01:02:03.196Z] [31MERROR[39M: This email is already registered, please log in instead.
+[2026-02-21T01:03:02.623Z] [31MERROR[39M: This email is already registered, please log in instead.
+[2026-02-21T01:03:17.521Z] [31MERROR[39M: Unauthorized, please log in
+[2026-02-21T01:03:17.918Z] [31MERROR[39M: Refresh token not found
+[2026-02-21T01:03:41.492Z] [31MERROR[39M: Unauthorized, please log in
+[2026-02-21T01:03:41.748Z] [31MERROR[39M: Refresh token not found
+[2026-02-21T01:04:19.713Z] [31MERROR[39M: This email is already registered, please log in instead.
+[2026-02-21T01:05:39.197Z] [31MERROR[39M: Unauthorized, please log in
+[2026-02-21T01:05:39.625Z] [31MERROR[39M: Refresh token not found
+[2026-02-21T01:06:14.277Z] [31MERROR[39M: This email is already registered, please log in instead.
+[2026-02-21T01:07:44.010Z] [31MERROR[39M: Unauthorized, please log in
+[2026-02-21T01:07:44.281Z] [31MERROR[39M: Refresh token not found
+[2026-02-21T01:08:15.082Z] [31MERROR[39M: This email is already registered, please log in instead.
+[2026-02-21T02:52:10.864Z] [31MERROR[39M: Unauthorized, please log in
+[2026-02-21T03:00:50.398Z] [31MERROR[39M: Unauthorized, please log in
+[2026-02-21T03:00:50.547Z] [31MERROR[39M: Refresh token not found
+[2026-02-21T03:09:51.138Z] [31MERROR[39M: Unauthorized, please log in
+[2026-02-21T03:09:51.252Z] [31MERROR[39M: Refresh token not found
+[2026-02-21T03:16:46.815Z] [31MERROR[39M: Unauthorized, please log in
+[2026-02-21T03:16:47.523Z] [31MERROR[39M: Refresh token not found
+[2026-02-21T03:17:06.925Z] [31MERROR[39M: Unauthorized, please log in
+[2026-02-21T03:17:07.047Z] [31MERROR[39M: Refresh token not found
+[2026-02-21T03:20:33.363Z] [31MERROR[39M: Unauthorized, please log in
+[2026-02-21T03:20:33.731Z] [31MERROR[39M: Refresh token not found
+[2026-02-21T05:55:18.379Z] [31MERROR[39M: Unauthorized, please log in
+[2026-02-21T05:55:18.691Z] [31MERROR[39M: Refresh token not found
+[2026-02-21T05:55:47.958Z] [31MERROR[39M: Unauthorized, please log in
+[2026-02-21T05:55:48.002Z] [31MERROR[39M: Refresh token not found
+[2026-02-21T22:12:57.759Z] [31MERROR[39M: Invalid access token, please log in
+[2026-02-21T22:13:00.214Z] [31MERROR[39M: Invalid access token, please log in
+[2026-02-21T22:13:31.685Z] [31MERROR[39M: Email or password is incorrect.
+[2026-02-21T22:15:27.216Z] [31MERROR[39M: This email is already registered, please log in instead.
+[2026-02-21T23:37:01.315Z] [31MERROR[39M: Invalid access token, please log in
+[2026-02-21T23:37:12.428Z] [31MERROR[39M: Invalid access token, please log in
+[2026-02-21T23:43:51.565Z] [31MERROR[39M: Invalid access token, please log in
+[2026-02-21T23:43:53.782Z] [31MERROR[39M: Invalid access token, please log in
+[2026-02-21T23:45:14.007Z] [31MERROR[39M: Invalid access token, please log in
+[2026-02-21T23:45:15.609Z] [31MERROR[39M: Invalid access token, please log in
+[2026-02-21T23:48:08.855Z] [31MERROR[39M: Invalid access token, please log in
+[2026-02-21T23:48:10.457Z] [31MERROR[39M: Invalid access token, please log in
+[2026-02-21T23:48:44.340Z] [31MERROR[39M: Invalid access token, please log in
+[2026-02-21T23:48:44.478Z] [31MERROR[39M: Invalid access token, please log in
+[2026-02-23T01:01:52.400Z] [31MERROR[39M: Unauthorized, please log in
+[2026-02-23T01:01:52.550Z] [31MERROR[39M: Refresh token not found
+[2026-02-23T01:02:19.149Z] [31MERROR[39M: Email or password is incorrect.
+[2026-02-23T01:15:22.189Z] [31MERROR[39M: Unauthorized, please log in
+[2026-02-23T01:15:22.231Z] [31MERROR[39M: Refresh token not found
+[2026-02-23T01:16:21.594Z] [31MERROR[39M: Unauthorized, please log in
+[2026-02-23T01:16:21.688Z] [31MERROR[39M: Refresh token not found
+[2026-02-24T01:20:36.923Z] [31MERROR[39M: Unauthorized, please log in
+[2026-02-24T01:20:37.077Z] [31MERROR[39M: Refresh token not found
+[2026-02-24T01:20:59.374Z] [31MERROR[39M: Unauthorized, please log in
+[2026-02-24T01:20:59.411Z] [31MERROR[39M: Refresh token not found
+[2026-02-24T01:40:41.967Z] [31MERROR[39M: Unauthorized, please log in
+[2026-02-24T01:40:42.091Z] [31MERROR[39M: Refresh token not found
+[2026-02-24T01:58:05.953Z] [31MERROR[39M: Invalid access token, please log in
+[2026-02-24T01:58:06.070Z] [31MERROR[39M: Invalid access token, please log in

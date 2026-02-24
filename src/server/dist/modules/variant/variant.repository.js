@@ -24,7 +24,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.VariantRepository = void 0;
-const database_config_1 = __importDefault(require("@/infra/database/database.config"));
+const database_config_1 = __importDefault(require("../../infra/database/database.config"));
 class VariantRepository {
     findManyVariants(params) {
         return __awaiter(this, void 0, void 0, function* () {
@@ -40,13 +40,17 @@ class VariantRepository {
                     },
                 }
                 : {}));
-            return database_config_1.default.productVariant.findMany({
+            const queryOptions = {
                 where: finalWhere,
                 orderBy,
                 skip,
                 take,
-                select,
-                include: {
+            };
+            if (select) {
+                queryOptions.select = select;
+            }
+            else {
+                queryOptions.include = {
                     product: true,
                     attributes: {
                         include: {
@@ -54,8 +58,9 @@ class VariantRepository {
                             value: true,
                         },
                     },
-                },
-            });
+                };
+            }
+            return database_config_1.default.productVariant.findMany(queryOptions);
         });
     }
     countVariants(params) {

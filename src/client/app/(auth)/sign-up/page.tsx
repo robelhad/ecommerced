@@ -41,6 +41,7 @@ const Signup = () => {
     watch,
     control,
     handleSubmit,
+    setError,
     formState: { errors },
   } = useForm<InputForm>({
     defaultValues: {
@@ -54,8 +55,18 @@ const Signup = () => {
     try {
       await signUp(formData).unwrap();
       router.push("/");
-    } catch (error) {
-      console.log("error: ", error);
+    } catch (err: any) {
+      console.log("error: ", err);
+      const message =
+      err?.data?.message ||
+      err?.error ||
+      "Something went wrong. Please try again.";
+
+    // Set it as a form-level error
+    setError("root", {
+      type: "server",
+      message,
+    });
     }
   };
 
@@ -70,13 +81,15 @@ const Signup = () => {
           <h2 className="text-2xl sm:text-3xl font-semibold text-gray-800 text-center mb-6">
             Sign Up
           </h2>
-
-          {error && (
+          {errors.root && (
             <div className="bg-red-50 border border-red-300 text-red-600 text-center text-sm p-3 rounded mb-4">
-              An unexpected error occurred
+            
+                   {errors.root.message}
+             
             </div>
-          )}
+          )}  
 
+          
           <form onSubmit={handleSubmit(onSubmit)} className="space-y-4">
             <Input
               name="name"

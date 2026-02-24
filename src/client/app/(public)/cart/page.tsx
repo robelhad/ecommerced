@@ -94,9 +94,9 @@ const Cart = () => {
                   {/* Product Image */}
                   <div className="w-16 h-16 sm:w-20 sm:h-20 bg-gray-50 rounded flex items-center justify-center overflow-hidden">
                     <Image
-                      src={
-                        item?.variant?.images[0] ||
-                        generateProductPlaceholder(item.variant.product.name)
+                      src={ item?.variant?.images[0] ?
+                        process.env.NEXT_PUBLIC_API_URL + '/image/' + item?.variant?.images[0] 
+                        : generateProductPlaceholder(item.variant.product.name)
                       }
                       alt={formatVariantName(item)}
                       width={80}

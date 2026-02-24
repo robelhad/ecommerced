@@ -35,6 +35,11 @@ import { Server as HTTPServer } from "http";
 import { SocketManager } from "@/infra/socket/socket";
 import { connectDB } from "./infra/database/database.config";
 import { setupSwagger } from "./docs/swagger";
+
+import path from "path";
+import fs from "fs";
+
+
 /*
 import authRoutes from "./routes/auth.routes"; 
 app.use(passport.initialize()); 
@@ -49,6 +54,25 @@ export const createApp = async () => {
   
 
   const app = express();
+
+  app.get("/debug-static", (req, res) => {
+  res.send(fs.readdirSync(path.join(process.cwd(), "../assets/seed-images/products")));
+});
+
+
+  app.use(
+  "/images",
+  express.static(
+    path.join(process.cwd(), "../assets/seed-images/products")
+  )
+);
+  app.use(
+  "/catimages",
+  express.static(
+    path.join(process.cwd(), "../assets/seed-images/categories")
+  )
+);
+
 
   /*
   await connectDB().catch((err) => {
@@ -114,12 +138,31 @@ export const createApp = async () => {
   // Preflight handler removed to avoid conflicts
 
   // CORS must be applied BEFORE GraphQL setup
+  const allowedOrigins =[
+        process.env.CLIENT_URL_PROD,
+        process.env.CLIENT_URL_DEV,
+        "http://192.168.161.140:3000",
+        "http://192.168.161.140:5173",
+        "http://localhost:5173",
+      ].filter((origin): origin is string => typeof origin === "string"); // removes undefined
+
   app.use(
     cors({
-      origin:
+      
+      origin: allowedOrigins, /*function (origin, callback) {
+      if (!origin) return callback(null, true); // allow non-browser tools
+
+      if (allowedOrigins.includes(origin)) {
+        callback(null, true);
+      } else {
+        callback(new Error("Not allowed by CORS"));
+      }
+    },      //
+      
         process.env.NODE_ENV === "production"
-          ? ["https://ecommerce-nu-rosy.vercel.app"]
-          : ["http://localhost:3000", "http://192.168.161.140:3000" , "http://192.168.161.140:5173",   "http://localhost:5173"],
+          ? ["https://ecommerce-nu-rosy.vercel.app", '${CLIENT_URL}']
+          : ["http://localhost:3000", '${process.env.CLIENT_URL_DEV}', "http://192.168.161.140:3000" , "http://192.168.161.140:5173",   "http://localhost:5173"],
+          */
       credentials: true,
       methods: ["GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS"],
       allowedHeaders: [
@@ -153,6 +196,7 @@ export const createApp = async () => {
   app.get("/", (req, res) => {
   res.json({ message: "Server is running 🚀" });
 });
+  //app.use("/images", express.static("/home/robel/cecommerce/assets/seed-images/products"));
 
   app.use("/api", configureRoutes(io));
 

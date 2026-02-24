@@ -8,7 +8,6 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
         step((generator = generator.apply(thisArg, _arguments || [])).next());
     });
 };
-
 var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
@@ -20,7 +19,6 @@ require("./infra/cloudinary/config");
 const body_parser_1 = __importDefault(require("body-parser"));
 const cookie_parser_1 = __importDefault(require("cookie-parser"));
 const cors_1 = __importDefault(require("cors"));
-
 const helmet_1 = __importDefault(require("helmet"));
 const express_mongo_sanitize_1 = __importDefault(require("express-mongo-sanitize"));
 const hpp_1 = __importDefault(require("hpp"));
@@ -28,34 +26,54 @@ const morgan_1 = __importDefault(require("morgan"));
 const logger_1 = __importDefault(require("./infra/winston/logger"));
 const compression_1 = __importDefault(require("compression"));
 const passport_1 = __importDefault(require("passport"));
-
 const express_session_1 = __importDefault(require("express-session"));
 const connect_redis_1 = require("connect-redis");
-
 const redis_1 = __importDefault(require("./infra/cache/redis"));
-
 const passport_2 = __importDefault(require("./infra/passport/passport"));
-console.log(`Server is running on test`);
 const constants_1 = require("./shared/constants");
 const globalError_1 = __importDefault(require("./shared/errors/globalError"));
 const logRequest_1 = require("./shared/middlewares/logRequest");
-
 const routes_1 = require("./routes");
 const graphql_1 = require("./graphql");
 const webhook_routes_1 = __importDefault(require("./modules/webhook/webhook.routes"));
 const health_routes_1 = __importDefault(require("./routes/health.routes"));
 // import { preflightHandler } from "./shared/middlewares/preflightHandler";
 const http_1 = require("http");
-const socket_1 = require("@/infra/socket/socket");
+const socket_1 = require("./infra/socket/socket");
 const database_config_1 = require("./infra/database/database.config");
 const swagger_1 = require("./docs/swagger");
+const path_1 = __importDefault(require("path"));
+const fs_1 = __importDefault(require("fs"));
+/*
+import authRoutes from "./routes/auth.routes";
+app.use(passport.initialize());
+app.use(passport.session());
+app.use(authRoutes);
+*/
 dotenv_1.default.config();
 const createApp = () => __awaiter(void 0, void 0, void 0, function* () {
     const app = (0, express_1.default)();
-    yield (0, database_config_1.connectDB)().catch((err) => {
-        console.error("❌ Failed to connect to DB:", err);
-        process.exit(1);
+    app.get("/debug-static", (req, res) => {
+        res.send(fs_1.default.readdirSync(path_1.default.join(process.cwd(), "../assets/seed-images/products")));
     });
+    app.use("/images", express_1.default.static(path_1.default.join(process.cwd(), "../assets/seed-images/products")));
+    app.use("/catimages", express_1.default.static(path_1.default.join(process.cwd(), "../assets/seed-images/categories")));
+    /*
+    await connectDB().catch((err) => {
+      console.error("❌ Failed to connect to DB:", err);
+      process.exit(1);
+    });
+    */
+    try {
+        yield (0, database_config_1.connectDB)();
+        console.log("✅ Database connected");
+    }
+    catch (err) {
+        console.warn("⚠️ Database not available:", err.message);
+        if (process.env.NODE_ENV === "production") {
+            throw err; // crash in production only
+        }
+    }
     const httpServer = new http_1.Server(app);
     // Initialize Socket.IO
     const socketManager = new socket_1.SocketManager(httpServer);
@@ -88,10 +106,28 @@ const createApp = () => __awaiter(void 0, void 0, void 0, function* () {
     (0, passport_2.default)();
     // Preflight handler removed to avoid conflicts
     // CORS must be applied BEFORE GraphQL setup
+    const allowedOrigins = [
+        process.env.CLIENT_URL_PROD,
+        process.env.CLIENT_URL_DEV,
+        "http://192.168.161.140:3000",
+        "http://192.168.161.140:5173",
+        "http://localhost:5173",
+    ].filter((origin) => typeof origin === "string"); // removes undefined
     app.use((0, cors_1.default)({
-        origin: process.env.NODE_ENV === "production"
-            ? ["https://ecommerce-nu-rosy.vercel.app"]
-            : ["http://localhost:3000", "http://localhost:5173"],
+        origin: allowedOrigins, /*function (origin, callback) {
+        if (!origin) return callback(null, true); // allow non-browser tools
+  
+        if (allowedOrigins.includes(origin)) {
+          callback(null, true);
+        } else {
+          callback(new Error("Not allowed by CORS"));
+        }
+      },      //
+        
+          process.env.NODE_ENV === "production"
+            ? ["https://ecommerce-nu-rosy.vercel.app", '${CLIENT_URL}']
+            : ["http://localhost:3000", '${process.env.CLIENT_URL_DEV}', "http://192.168.161.140:3000" , "http://192.168.161.140:5173",   "http://localhost:5173"],
+            */
         credentials: true,
         methods: ["GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS"],
         allowedHeaders: [
@@ -114,9 +150,23 @@ const createApp = () => __awaiter(void 0, void 0, void 0, function* () {
         },
     }));
     app.use((0, compression_1.default)());
+    app.get("/", (req, res) => {
+        res.json({ message: "Server is running 🚀" });
+    });
+    //app.use("/images", express.static("/home/robel/cecommerce/assets/seed-images/products"));
     app.use("/api", (0, routes_1.configureRoutes)(io));
     // GraphQL setup
-    yield (0, graphql_1.configureGraphQL)(app);
+    //await configureGraphQL(app);
+    try {
+        yield (0, graphql_1.configureGraphQL)(app);
+        console.log("✅ GraphQL configured");
+    }
+    catch (err) {
+        console.warn("⚠️ GraphQL setup failed:", err.message);
+        if (process.env.NODE_ENV === "production") {
+            throw err;
+        }
+    }
     // Error & Logging
     app.use(globalError_1.default);
     app.use(logRequest_1.logRequest);

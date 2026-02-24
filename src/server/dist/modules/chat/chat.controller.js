@@ -13,8 +13,8 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.ChatController = void 0;
-const asyncHandler_1 = __importDefault(require("@/shared/utils/asyncHandler"));
-const sendResponse_1 = __importDefault(require("@/shared/utils/sendResponse"));
+const asyncHandler_1 = __importDefault(require("../../shared/utils/asyncHandler"));
+const sendResponse_1 = __importDefault(require("../../shared/utils/sendResponse"));
 const logs_factory_1 = require("../logs/logs.factory");
 class ChatController {
     constructor(chatService) {

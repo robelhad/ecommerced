@@ -45,9 +45,9 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
       <div className="relative w-full h-48 sm:h-[170px]  bg-gray-50 flex items-center justify-center overflow-hidden">
         <Link href={`/product/${product.slug}`} className="block w-full h-full">
           <Image
-            src={
-              product.variants[0]?.images[0] ||
-              generateProductPlaceholder(product.name)
+            src={product.variants[0]?.images[0]?
+              `${process.env.NEXT_PUBLIC_API_URL}/image/${product.variants[0]?.images[0]}` 
+              : generateProductPlaceholder(product.name)
             }
             alt={product.name}
             width={240}

@@ -31,6 +31,8 @@ const ListItem: React.FC<ListItemProps> = ({ item, itemType }) => {
       className="flex items-center justify-between py-3 px-2 rounded-lg transition-all duration-200 hover:bg-gray-50 hover:shadow-md cursor-pointer group"
     >
       <div className="flex items-center space-x-3">
+
+        
         {item.image ? (
           <Image
             src={item.image}

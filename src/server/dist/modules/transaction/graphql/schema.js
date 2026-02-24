@@ -6,7 +6,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.transactionSchema = void 0;
 const graphql_tag_1 = __importDefault(require("graphql-tag"));
 const schema_1 = require("@graphql-tools/schema");
-const resolver_1 = require("@/modules/product/graphql/resolver");
+const resolver_1 = require("../../../modules/product/graphql/resolver");
 const typeDefs = (0, graphql_tag_1.default) `
   type transaction {
     id: String!

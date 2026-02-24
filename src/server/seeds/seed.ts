@@ -85,7 +85,7 @@ async function main() {
       name: "Electronics",
       slug: "electronics",
       description: "Electronic devices and gadgets",
-      images: [],
+      images: ["electronics.jpg"],
     },
   });
 
@@ -646,6 +646,7 @@ async function main() {
         {
           sku: "IPH16-PRO-128-BLACK",
           price: 999.99,
+          images: ["smartphone-1.jpg"],
           stock: 25,
           barcode: "1234567890001",
           warehouseLocation: "WH-1A",
@@ -1005,7 +1006,7 @@ async function main() {
           lowStockThreshold: 10,
           barcode: variantData.barcode,
           warehouseLocation: variantData.warehouseLocation,
-          images: [],
+          images: variantData.images || [],
         },
       });
 

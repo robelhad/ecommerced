@@ -7,9 +7,11 @@ const passport_1 = __importDefault(require("passport"));
 const handleSocialLogin = (provider) => {
     const scopes = provider === "google"
         ? ["email", "profile"]
-        : provider === "facebook"
+        : provider === "microsoft"
             ? ["email", "public_profile"]
-            : [];
+            : provider === "facebook"
+                ? ["email", "public_profile"]
+                : [];
     return passport_1.default.authenticate(provider, {
         session: false,
         scope: scopes,

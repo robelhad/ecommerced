@@ -1,0 +1,1220 @@
+[2026-02-12T20:29:12.345Z] [31MERROR[39M: uncaughtException: Cannot find module '/app/src/infra/database/database.config'
+Require stack:
+- /app/dist/infra/passport/passport.js
+- /app/dist/app.js
+- /app/dist/server.js
+Error: Cannot find module '/app/src/infra/database/database.config'
+Require stack:
+- /app/dist/infra/passport/passport.js
+- /app/dist/app.js
+- /app/dist/server.js
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1383:15)
+    at Module._resolveFilename (/app/node_modules/module-alias/index.js:49:29)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1025:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1030:22)
+    at Function._load (node:internal/modules/cjs/loader:1192:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at Module.require (node:internal/modules/cjs/loader:1463:12)
+    at require (node:internal/modules/helpers:147:16)
+    at Object.<anonymous> (/app/dist/infra/passport/passport.js:20:43)
+[2026-02-12T23:51:24.146Z] [31MERROR[39M: uncaughtException: Cannot find module '/app/src/infra/database/database.config'
+Require stack:
+- /app/dist/infra/passport/passport.js
+- /app/dist/app.js
+- /app/dist/server.js
+Error: Cannot find module '/app/src/infra/database/database.config'
+Require stack:
+- /app/dist/infra/passport/passport.js
+- /app/dist/app.js
+- /app/dist/server.js
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1383:15)
+    at Module._resolveFilename (/app/node_modules/module-alias/index.js:49:29)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1025:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1030:22)
+    at Function._load (node:internal/modules/cjs/loader:1192:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at Module.require (node:internal/modules/cjs/loader:1463:12)
+    at require (node:internal/modules/helpers:147:16)
+    at Object.<anonymous> (/app/dist/infra/passport/passport.js:20:43)
+[2026-02-12T23:59:06.253Z] [31MERROR[39M: uncaughtException: Cannot find module '/app/src/infra/database/database.config'
+Require stack:
+- /app/dist/infra/passport/passport.js
+- /app/dist/app.js
+- /app/dist/server.js
+Error: Cannot find module '/app/src/infra/database/database.config'
+Require stack:
+- /app/dist/infra/passport/passport.js
+- /app/dist/app.js
+- /app/dist/server.js
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1383:15)
+    at Module._resolveFilename (/app/node_modules/module-alias/index.js:49:29)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1025:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1030:22)
+    at Function._load (node:internal/modules/cjs/loader:1192:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at Module.require (node:internal/modules/cjs/loader:1463:12)
+    at require (node:internal/modules/helpers:147:16)
+    at Object.<anonymous> (/app/dist/infra/passport/passport.js:20:43)
+[2026-02-13T05:28:08.322Z] [31MERROR[39M: uncaughtException: Cannot find module '/app/src/infra/database/database.config'
+Require stack:
+- /app/dist/infra/passport/passport.js
+- /app/dist/app.js
+- /app/dist/server.js
+Error: Cannot find module '/app/src/infra/database/database.config'
+Require stack:
+- /app/dist/infra/passport/passport.js
+- /app/dist/app.js
+- /app/dist/server.js
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1383:15)
+    at Module._resolveFilename (/app/node_modules/module-alias/index.js:49:29)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1025:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1030:22)
+    at Function._load (node:internal/modules/cjs/loader:1192:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at Module.require (node:internal/modules/cjs/loader:1463:12)
+    at require (node:internal/modules/helpers:147:16)
+    at Object.<anonymous> (/app/dist/infra/passport/passport.js:20:43)
+[2026-02-13T06:10:28.856Z] [31MERROR[39M: uncaughtException: Cannot find module '/app/src/infra/database/database.config'
+Require stack:
+- /app/dist/infra/passport/passport.js
+- /app/dist/app.js
+- /app/dist/server.js
+Error: Cannot find module '/app/src/infra/database/database.config'
+Require stack:
+- /app/dist/infra/passport/passport.js
+- /app/dist/app.js
+- /app/dist/server.js
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1383:15)
+    at Module._resolveFilename (/app/node_modules/module-alias/index.js:49:29)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1025:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1030:22)
+    at Function._load (node:internal/modules/cjs/loader:1192:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at Module.require (node:internal/modules/cjs/loader:1463:12)
+    at require (node:internal/modules/helpers:147:16)
+    at Object.<anonymous> (/app/dist/infra/passport/passport.js:20:43)
+[2026-02-13T06:28:37.079Z] [31MERROR[39M: uncaughtException: Cannot find module '/app/src/infra/database/database.config'
+Require stack:
+- /app/dist/infra/passport/passport.js
+- /app/dist/app.js
+- /app/dist/server.js
+Error: Cannot find module '/app/src/infra/database/database.config'
+Require stack:
+- /app/dist/infra/passport/passport.js
+- /app/dist/app.js
+- /app/dist/server.js
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1383:15)
+    at Module._resolveFilename (/app/node_modules/module-alias/index.js:49:29)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1025:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1030:22)
+    at Function._load (node:internal/modules/cjs/loader:1192:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at Module.require (node:internal/modules/cjs/loader:1463:12)
+    at require (node:internal/modules/helpers:147:16)
+    at Object.<anonymous> (/app/dist/infra/passport/passport.js:20:43)
+[2026-02-13T07:08:32.433Z] [31MERROR[39M: uncaughtException: Cannot find module '/app/src/infra/database/database.config'
+Require stack:
+- /app/dist/infra/passport/passport.js
+- /app/dist/app.js
+- /app/dist/server.js
+Error: Cannot find module '/app/src/infra/database/database.config'
+Require stack:
+- /app/dist/infra/passport/passport.js
+- /app/dist/app.js
+- /app/dist/server.js
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1383:15)
+    at Module._resolveFilename (/app/node_modules/module-alias/index.js:49:29)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1025:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1030:22)
+    at Function._load (node:internal/modules/cjs/loader:1192:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at Module.require (node:internal/modules/cjs/loader:1463:12)
+    at require (node:internal/modules/helpers:147:16)
+    at Object.<anonymous> (/app/dist/infra/passport/passport.js:20:43)
+[2026-02-13T07:08:33.797Z] [31MERROR[39M: uncaughtException: Cannot find module '/app/src/infra/database/database.config'
+Require stack:
+- /app/dist/infra/passport/passport.js
+- /app/dist/app.js
+- /app/dist/server.js
+Error: Cannot find module '/app/src/infra/database/database.config'
+Require stack:
+- /app/dist/infra/passport/passport.js
+- /app/dist/app.js
+- /app/dist/server.js
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1383:15)
+    at Module._resolveFilename (/app/node_modules/module-alias/index.js:49:29)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1025:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1030:22)
+    at Function._load (node:internal/modules/cjs/loader:1192:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at Module.require (node:internal/modules/cjs/loader:1463:12)
+    at require (node:internal/modules/helpers:147:16)
+    at Object.<anonymous> (/app/dist/infra/passport/passport.js:20:43)
+[2026-02-13T07:08:34.912Z] [31MERROR[39M: uncaughtException: Cannot find module '/app/src/infra/database/database.config'
+Require stack:
+- /app/dist/infra/passport/passport.js
+- /app/dist/app.js
+- /app/dist/server.js
+Error: Cannot find module '/app/src/infra/database/database.config'
+Require stack:
+- /app/dist/infra/passport/passport.js
+- /app/dist/app.js
+- /app/dist/server.js
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1383:15)
+    at Module._resolveFilename (/app/node_modules/module-alias/index.js:49:29)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1025:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1030:22)
+    at Function._load (node:internal/modules/cjs/loader:1192:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at Module.require (node:internal/modules/cjs/loader:1463:12)
+    at require (node:internal/modules/helpers:147:16)
+    at Object.<anonymous> (/app/dist/infra/passport/passport.js:20:43)
+[2026-02-13T07:08:36.218Z] [31MERROR[39M: uncaughtException: Cannot find module '/app/src/infra/database/database.config'
+Require stack:
+- /app/dist/infra/passport/passport.js
+- /app/dist/app.js
+- /app/dist/server.js
+Error: Cannot find module '/app/src/infra/database/database.config'
+Require stack:
+- /app/dist/infra/passport/passport.js
+- /app/dist/app.js
+- /app/dist/server.js
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1383:15)
+    at Module._resolveFilename (/app/node_modules/module-alias/index.js:49:29)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1025:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1030:22)
+    at Function._load (node:internal/modules/cjs/loader:1192:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at Module.require (node:internal/modules/cjs/loader:1463:12)
+    at require (node:internal/modules/helpers:147:16)
+    at Object.<anonymous> (/app/dist/infra/passport/passport.js:20:43)
+[2026-02-13T07:08:37.966Z] [31MERROR[39M: uncaughtException: Cannot find module '/app/src/infra/database/database.config'
+Require stack:
+- /app/dist/infra/passport/passport.js
+- /app/dist/app.js
+- /app/dist/server.js
+Error: Cannot find module '/app/src/infra/database/database.config'
+Require stack:
+- /app/dist/infra/passport/passport.js
+- /app/dist/app.js
+- /app/dist/server.js
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1383:15)
+    at Module._resolveFilename (/app/node_modules/module-alias/index.js:49:29)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1025:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1030:22)
+    at Function._load (node:internal/modules/cjs/loader:1192:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at Module.require (node:internal/modules/cjs/loader:1463:12)
+    at require (node:internal/modules/helpers:147:16)
+    at Object.<anonymous> (/app/dist/infra/passport/passport.js:20:43)
+[2026-02-13T07:08:40.494Z] [31MERROR[39M: uncaughtException: Cannot find module '/app/src/infra/database/database.config'
+Require stack:
+- /app/dist/infra/passport/passport.js
+- /app/dist/app.js
+- /app/dist/server.js
+Error: Cannot find module '/app/src/infra/database/database.config'
+Require stack:
+- /app/dist/infra/passport/passport.js
+- /app/dist/app.js
+- /app/dist/server.js
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1383:15)
+    at Module._resolveFilename (/app/node_modules/module-alias/index.js:49:29)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1025:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1030:22)
+    at Function._load (node:internal/modules/cjs/loader:1192:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at Module.require (node:internal/modules/cjs/loader:1463:12)
+    at require (node:internal/modules/helpers:147:16)
+    at Object.<anonymous> (/app/dist/infra/passport/passport.js:20:43)
+[2026-02-13T07:08:44.672Z] [31MERROR[39M: uncaughtException: Cannot find module '/app/src/infra/database/database.config'
+Require stack:
+- /app/dist/infra/passport/passport.js
+- /app/dist/app.js
+- /app/dist/server.js
+Error: Cannot find module '/app/src/infra/database/database.config'
+Require stack:
+- /app/dist/infra/passport/passport.js
+- /app/dist/app.js
+- /app/dist/server.js
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1383:15)
+    at Module._resolveFilename (/app/node_modules/module-alias/index.js:49:29)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1025:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1030:22)
+    at Function._load (node:internal/modules/cjs/loader:1192:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at Module.require (node:internal/modules/cjs/loader:1463:12)
+    at require (node:internal/modules/helpers:147:16)
+    at Object.<anonymous> (/app/dist/infra/passport/passport.js:20:43)
+[2026-02-13T07:08:51.973Z] [31MERROR[39M: uncaughtException: Cannot find module '/app/src/infra/database/database.config'
+Require stack:
+- /app/dist/infra/passport/passport.js
+- /app/dist/app.js
+- /app/dist/server.js
+Error: Cannot find module '/app/src/infra/database/database.config'
+Require stack:
+- /app/dist/infra/passport/passport.js
+- /app/dist/app.js
+- /app/dist/server.js
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1383:15)
+    at Module._resolveFilename (/app/node_modules/module-alias/index.js:49:29)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1025:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1030:22)
+    at Function._load (node:internal/modules/cjs/loader:1192:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at Module.require (node:internal/modules/cjs/loader:1463:12)
+    at require (node:internal/modules/helpers:147:16)
+    at Object.<anonymous> (/app/dist/infra/passport/passport.js:20:43)
+[2026-02-13T07:38:51.793Z] [31MERROR[39M: uncaughtException: Cannot find module '/app/src/infra/database/database.config'
+Require stack:
+- /app/dist/infra/passport/passport.js
+- /app/dist/app.js
+- /app/dist/server.js
+Error: Cannot find module '/app/src/infra/database/database.config'
+Require stack:
+- /app/dist/infra/passport/passport.js
+- /app/dist/app.js
+- /app/dist/server.js
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1383:15)
+    at Module._resolveFilename (/app/node_modules/module-alias/index.js:49:29)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1025:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1030:22)
+    at Function._load (node:internal/modules/cjs/loader:1192:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at Module.require (node:internal/modules/cjs/loader:1463:12)
+    at require (node:internal/modules/helpers:147:16)
+    at Object.<anonymous> (/app/dist/infra/passport/passport.js:20:43)
+[2026-02-13T07:48:03.349Z] [31MERROR[39M: uncaughtException: Cannot find module '/app/src/infra/database/database.config'
+Require stack:
+- /app/dist/infra/passport/passport.js
+- /app/dist/app.js
+- /app/dist/server.js
+Error: Cannot find module '/app/src/infra/database/database.config'
+Require stack:
+- /app/dist/infra/passport/passport.js
+- /app/dist/app.js
+- /app/dist/server.js
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1383:15)
+    at Module._resolveFilename (/app/node_modules/module-alias/index.js:49:29)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1025:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1030:22)
+    at Function._load (node:internal/modules/cjs/loader:1192:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at Module.require (node:internal/modules/cjs/loader:1463:12)
+    at require (node:internal/modules/helpers:147:16)
+    at Object.<anonymous> (/app/dist/infra/passport/passport.js:20:43)
+[2026-02-13T08:07:41.213Z] [31MERROR[39M: uncaughtException: Cannot find module '/app/src/infra/database/database.config'
+Require stack:
+- /app/dist/infra/passport/passport.js
+- /app/dist/app.js
+- /app/dist/server.js
+Error: Cannot find module '/app/src/infra/database/database.config'
+Require stack:
+- /app/dist/infra/passport/passport.js
+- /app/dist/app.js
+- /app/dist/server.js
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1383:15)
+    at Module._resolveFilename (/app/node_modules/module-alias/index.js:49:29)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1025:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1030:22)
+    at Function._load (node:internal/modules/cjs/loader:1192:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at Module.require (node:internal/modules/cjs/loader:1463:12)
+    at require (node:internal/modules/helpers:147:16)
+    at Object.<anonymous> (/app/dist/infra/passport/passport.js:20:43)
+[2026-02-13T08:42:08.562Z] [31MERROR[39M: uncaughtException: Cannot find module '/app/src/infra/database/database.config'
+Require stack:
+- /app/dist/infra/passport/passport.js
+- /app/dist/app.js
+- /app/dist/server.js
+Error: Cannot find module '/app/src/infra/database/database.config'
+Require stack:
+- /app/dist/infra/passport/passport.js
+- /app/dist/app.js
+- /app/dist/server.js
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1383:15)
+    at Module._resolveFilename (/app/node_modules/module-alias/index.js:49:29)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1025:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1030:22)
+    at Function._load (node:internal/modules/cjs/loader:1192:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at Module.require (node:internal/modules/cjs/loader:1463:12)
+    at require (node:internal/modules/helpers:147:16)
+    at Object.<anonymous> (/app/dist/infra/passport/passport.js:20:43)
+[2026-02-13T08:47:55.884Z] [31MERROR[39M: uncaughtException: Cannot find module '/home/robel/ecommerce/src/server/src/infra/database/database.config'
+Require stack:
+- /home/robel/ecommerce/src/server/dist/infra/passport/passport.js
+- /home/robel/ecommerce/src/server/dist/app.js
+- /home/robel/ecommerce/src/server/dist/server.js
+Error: Cannot find module '/home/robel/ecommerce/src/server/src/infra/database/database.config'
+Require stack:
+- /home/robel/ecommerce/src/server/dist/infra/passport/passport.js
+- /home/robel/ecommerce/src/server/dist/app.js
+- /home/robel/ecommerce/src/server/dist/server.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1207:15)
+    at Module._resolveFilename (/home/robel/ecommerce/src/server/node_modules/module-alias/index.js:49:29)
+    at Module._load (node:internal/modules/cjs/loader:1038:27)
+    at Module.require (node:internal/modules/cjs/loader:1289:19)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/robel/ecommerce/src/server/dist/infra/passport/passport.js:20:43)
+    at Module._compile (node:internal/modules/cjs/loader:1521:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1623:10)
+    at Module.load (node:internal/modules/cjs/loader:1266:32)
+    at Module._load (node:internal/modules/cjs/loader:1091:12)
+[2026-02-13T08:48:33.897Z] [31MERROR[39M: uncaughtException: Cannot find module '/home/robel/ecommerce/src/server/src/infra/database/database.config'
+Require stack:
+- /home/robel/ecommerce/src/server/dist/infra/passport/passport.js
+- /home/robel/ecommerce/src/server/dist/app.js
+- /home/robel/ecommerce/src/server/dist/server.js
+Error: Cannot find module '/home/robel/ecommerce/src/server/src/infra/database/database.config'
+Require stack:
+- /home/robel/ecommerce/src/server/dist/infra/passport/passport.js
+- /home/robel/ecommerce/src/server/dist/app.js
+- /home/robel/ecommerce/src/server/dist/server.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1207:15)
+    at Module._resolveFilename (/home/robel/ecommerce/src/server/node_modules/module-alias/index.js:49:29)
+    at Module._load (node:internal/modules/cjs/loader:1038:27)
+    at Module.require (node:internal/modules/cjs/loader:1289:19)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/robel/ecommerce/src/server/dist/infra/passport/passport.js:20:43)
+    at Module._compile (node:internal/modules/cjs/loader:1521:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1623:10)
+    at Module.load (node:internal/modules/cjs/loader:1266:32)
+    at Module._load (node:internal/modules/cjs/loader:1091:12)
+[2026-02-13T08:49:29.748Z] [31MERROR[39M: uncaughtException: Cannot find module '/home/robel/ecommerce/src/server/src/infra/database/database.config'
+Require stack:
+- /home/robel/ecommerce/src/server/dist/infra/passport/passport.js
+- /home/robel/ecommerce/src/server/dist/app.js
+- /home/robel/ecommerce/src/server/dist/server.js
+Error: Cannot find module '/home/robel/ecommerce/src/server/src/infra/database/database.config'
+Require stack:
+- /home/robel/ecommerce/src/server/dist/infra/passport/passport.js
+- /home/robel/ecommerce/src/server/dist/app.js
+- /home/robel/ecommerce/src/server/dist/server.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1207:15)
+    at Module._resolveFilename (/home/robel/ecommerce/src/server/node_modules/module-alias/index.js:49:29)
+    at Module._load (node:internal/modules/cjs/loader:1038:27)
+    at Module.require (node:internal/modules/cjs/loader:1289:19)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/robel/ecommerce/src/server/dist/infra/passport/passport.js:20:43)
+    at Module._compile (node:internal/modules/cjs/loader:1521:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1623:10)
+    at Module.load (node:internal/modules/cjs/loader:1266:32)
+    at Module._load (node:internal/modules/cjs/loader:1091:12)
+[2026-02-13T08:50:18.407Z] [31MERROR[39M: uncaughtException: Cannot find module '/home/robel/ecommerce/src/server/src/infra/database/database.config'
+Require stack:
+- /home/robel/ecommerce/src/server/dist/infra/passport/passport.js
+- /home/robel/ecommerce/src/server/dist/app.js
+- /home/robel/ecommerce/src/server/dist/server.js
+Error: Cannot find module '/home/robel/ecommerce/src/server/src/infra/database/database.config'
+Require stack:
+- /home/robel/ecommerce/src/server/dist/infra/passport/passport.js
+- /home/robel/ecommerce/src/server/dist/app.js
+- /home/robel/ecommerce/src/server/dist/server.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1207:15)
+    at Module._resolveFilename (/home/robel/ecommerce/src/server/node_modules/module-alias/index.js:49:29)
+    at Module._load (node:internal/modules/cjs/loader:1038:27)
+    at Module.require (node:internal/modules/cjs/loader:1289:19)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/robel/ecommerce/src/server/dist/infra/passport/passport.js:20:43)
+    at Module._compile (node:internal/modules/cjs/loader:1521:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1623:10)
+    at Module.load (node:internal/modules/cjs/loader:1266:32)
+    at Module._load (node:internal/modules/cjs/loader:1091:12)
+[2026-02-13T08:53:11.416Z] [31MERROR[39M: uncaughtException: Cannot find module '/home/robel/ecommerce/src/server/src/infra/database/database.config'
+Require stack:
+- /home/robel/ecommerce/src/server/dist/infra/passport/passport.js
+- /home/robel/ecommerce/src/server/dist/app.js
+- /home/robel/ecommerce/src/server/dist/server.js
+Error: Cannot find module '/home/robel/ecommerce/src/server/src/infra/database/database.config'
+Require stack:
+- /home/robel/ecommerce/src/server/dist/infra/passport/passport.js
+- /home/robel/ecommerce/src/server/dist/app.js
+- /home/robel/ecommerce/src/server/dist/server.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1207:15)
+    at Module._resolveFilename (/home/robel/ecommerce/src/server/node_modules/module-alias/index.js:49:29)
+    at Module._load (node:internal/modules/cjs/loader:1038:27)
+    at Module.require (node:internal/modules/cjs/loader:1289:19)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/robel/ecommerce/src/server/dist/infra/passport/passport.js:20:43)
+    at Module._compile (node:internal/modules/cjs/loader:1521:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1623:10)
+    at Module.load (node:internal/modules/cjs/loader:1266:32)
+    at Module._load (node:internal/modules/cjs/loader:1091:12)
+[2026-02-13T08:53:53.939Z] [31MERROR[39M: uncaughtException: Cannot find module '/home/robel/ecommerce/src/server/src/infra/database/database.config'
+Require stack:
+- /home/robel/ecommerce/src/server/dist/infra/passport/passport.js
+- /home/robel/ecommerce/src/server/dist/app.js
+- /home/robel/ecommerce/src/server/dist/server.js
+Error: Cannot find module '/home/robel/ecommerce/src/server/src/infra/database/database.config'
+Require stack:
+- /home/robel/ecommerce/src/server/dist/infra/passport/passport.js
+- /home/robel/ecommerce/src/server/dist/app.js
+- /home/robel/ecommerce/src/server/dist/server.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1207:15)
+    at Module._resolveFilename (/home/robel/ecommerce/src/server/node_modules/module-alias/index.js:49:29)
+    at Module._load (node:internal/modules/cjs/loader:1038:27)
+    at Module.require (node:internal/modules/cjs/loader:1289:19)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/robel/ecommerce/src/server/dist/infra/passport/passport.js:20:43)
+    at Module._compile (node:internal/modules/cjs/loader:1521:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1623:10)
+    at Module.load (node:internal/modules/cjs/loader:1266:32)
+    at Module._load (node:internal/modules/cjs/loader:1091:12)
+[2026-02-13T08:54:20.486Z] [31MERROR[39M: uncaughtException: Cannot find module '/home/robel/ecommerce/src/server/src/infra/database/database.config'
+Require stack:
+- /home/robel/ecommerce/src/server/dist/infra/passport/passport.js
+- /home/robel/ecommerce/src/server/dist/app.js
+- /home/robel/ecommerce/src/server/dist/server.js
+Error: Cannot find module '/home/robel/ecommerce/src/server/src/infra/database/database.config'
+Require stack:
+- /home/robel/ecommerce/src/server/dist/infra/passport/passport.js
+- /home/robel/ecommerce/src/server/dist/app.js
+- /home/robel/ecommerce/src/server/dist/server.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1207:15)
+    at Module._resolveFilename (/home/robel/ecommerce/src/server/node_modules/module-alias/index.js:49:29)
+    at Module._load (node:internal/modules/cjs/loader:1038:27)
+    at Module.require (node:internal/modules/cjs/loader:1289:19)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/robel/ecommerce/src/server/dist/infra/passport/passport.js:20:43)
+    at Module._compile (node:internal/modules/cjs/loader:1521:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1623:10)
+    at Module.load (node:internal/modules/cjs/loader:1266:32)
+    at Module._load (node:internal/modules/cjs/loader:1091:12)
+[2026-02-13T08:54:48.970Z] [31MERROR[39M: uncaughtException: Cannot find module '/home/robel/ecommerce/src/server/src/infra/database/database.config'
+Require stack:
+- /home/robel/ecommerce/src/server/dist/infra/passport/passport.js
+- /home/robel/ecommerce/src/server/dist/app.js
+- /home/robel/ecommerce/src/server/dist/server.js
+Error: Cannot find module '/home/robel/ecommerce/src/server/src/infra/database/database.config'
+Require stack:
+- /home/robel/ecommerce/src/server/dist/infra/passport/passport.js
+- /home/robel/ecommerce/src/server/dist/app.js
+- /home/robel/ecommerce/src/server/dist/server.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1207:15)
+    at Module._resolveFilename (/home/robel/ecommerce/src/server/node_modules/module-alias/index.js:49:29)
+    at Module._load (node:internal/modules/cjs/loader:1038:27)
+    at Module.require (node:internal/modules/cjs/loader:1289:19)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/robel/ecommerce/src/server/dist/infra/passport/passport.js:20:43)
+    at Module._compile (node:internal/modules/cjs/loader:1521:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1623:10)
+    at Module.load (node:internal/modules/cjs/loader:1266:32)
+    at Module._load (node:internal/modules/cjs/loader:1091:12)
+[2026-02-13T08:55:16.857Z] [31MERROR[39M: uncaughtException: Cannot find module '/home/robel/ecommerce/src/server/src/infra/database/database.config'
+Require stack:
+- /home/robel/ecommerce/src/server/dist/infra/passport/passport.js
+- /home/robel/ecommerce/src/server/dist/app.js
+- /home/robel/ecommerce/src/server/dist/server.js
+Error: Cannot find module '/home/robel/ecommerce/src/server/src/infra/database/database.config'
+Require stack:
+- /home/robel/ecommerce/src/server/dist/infra/passport/passport.js
+- /home/robel/ecommerce/src/server/dist/app.js
+- /home/robel/ecommerce/src/server/dist/server.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1207:15)
+    at Module._resolveFilename (/home/robel/ecommerce/src/server/node_modules/module-alias/index.js:49:29)
+    at Module._load (node:internal/modules/cjs/loader:1038:27)
+    at Module.require (node:internal/modules/cjs/loader:1289:19)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/robel/ecommerce/src/server/dist/infra/passport/passport.js:20:43)
+    at Module._compile (node:internal/modules/cjs/loader:1521:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1623:10)
+    at Module.load (node:internal/modules/cjs/loader:1266:32)
+    at Module._load (node:internal/modules/cjs/loader:1091:12)
+[2026-02-13T08:56:16.222Z] [31MERROR[39M: uncaughtException: Cannot find module '/home/robel/ecommerce/src/server/src/infra/database/database.config'
+Require stack:
+- /home/robel/ecommerce/src/server/dist/infra/passport/passport.js
+- /home/robel/ecommerce/src/server/dist/app.js
+- /home/robel/ecommerce/src/server/dist/server.js
+Error: Cannot find module '/home/robel/ecommerce/src/server/src/infra/database/database.config'
+Require stack:
+- /home/robel/ecommerce/src/server/dist/infra/passport/passport.js
+- /home/robel/ecommerce/src/server/dist/app.js
+- /home/robel/ecommerce/src/server/dist/server.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1207:15)
+    at Module._resolveFilename (/home/robel/ecommerce/src/server/node_modules/module-alias/index.js:49:29)
+    at Module._load (node:internal/modules/cjs/loader:1038:27)
+    at Module.require (node:internal/modules/cjs/loader:1289:19)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/robel/ecommerce/src/server/dist/infra/passport/passport.js:20:43)
+    at Module._compile (node:internal/modules/cjs/loader:1521:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1623:10)
+    at Module.load (node:internal/modules/cjs/loader:1266:32)
+    at Module._load (node:internal/modules/cjs/loader:1091:12)
+[2026-02-13T08:56:35.484Z] [31MERROR[39M: uncaughtException: Cannot find module '/home/robel/ecommerce/src/server/src/infra/database/database.config'
+Require stack:
+- /home/robel/ecommerce/src/server/dist/infra/passport/passport.js
+- /home/robel/ecommerce/src/server/dist/app.js
+- /home/robel/ecommerce/src/server/dist/server.js
+Error: Cannot find module '/home/robel/ecommerce/src/server/src/infra/database/database.config'
+Require stack:
+- /home/robel/ecommerce/src/server/dist/infra/passport/passport.js
+- /home/robel/ecommerce/src/server/dist/app.js
+- /home/robel/ecommerce/src/server/dist/server.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1207:15)
+    at Module._resolveFilename (/home/robel/ecommerce/src/server/node_modules/module-alias/index.js:49:29)
+    at Module._load (node:internal/modules/cjs/loader:1038:27)
+    at Module.require (node:internal/modules/cjs/loader:1289:19)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/robel/ecommerce/src/server/dist/infra/passport/passport.js:20:43)
+    at Module._compile (node:internal/modules/cjs/loader:1521:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1623:10)
+    at Module.load (node:internal/modules/cjs/loader:1266:32)
+    at Module._load (node:internal/modules/cjs/loader:1091:12)
+[2026-02-13T08:57:02.925Z] [31MERROR[39M: uncaughtException: Cannot find module '/home/robel/ecommerce/src/server/src/infra/database/database.config'
+Require stack:
+- /home/robel/ecommerce/src/server/dist/infra/passport/passport.js
+- /home/robel/ecommerce/src/server/dist/app.js
+- /home/robel/ecommerce/src/server/dist/server.js
+Error: Cannot find module '/home/robel/ecommerce/src/server/src/infra/database/database.config'
+Require stack:
+- /home/robel/ecommerce/src/server/dist/infra/passport/passport.js
+- /home/robel/ecommerce/src/server/dist/app.js
+- /home/robel/ecommerce/src/server/dist/server.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1207:15)
+    at Module._resolveFilename (/home/robel/ecommerce/src/server/node_modules/module-alias/index.js:49:29)
+    at Module._load (node:internal/modules/cjs/loader:1038:27)
+    at Module.require (node:internal/modules/cjs/loader:1289:19)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/robel/ecommerce/src/server/dist/infra/passport/passport.js:20:43)
+    at Module._compile (node:internal/modules/cjs/loader:1521:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1623:10)
+    at Module.load (node:internal/modules/cjs/loader:1266:32)
+    at Module._load (node:internal/modules/cjs/loader:1091:12)
+[2026-02-13T08:57:43.894Z] [31MERROR[39M: uncaughtException: Cannot find module '/home/robel/ecommerce/src/server/src/infra/database/database.config'
+Require stack:
+- /home/robel/ecommerce/src/server/dist/infra/passport/passport.js
+- /home/robel/ecommerce/src/server/dist/app.js
+- /home/robel/ecommerce/src/server/dist/server.js
+Error: Cannot find module '/home/robel/ecommerce/src/server/src/infra/database/database.config'
+Require stack:
+- /home/robel/ecommerce/src/server/dist/infra/passport/passport.js
+- /home/robel/ecommerce/src/server/dist/app.js
+- /home/robel/ecommerce/src/server/dist/server.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1207:15)
+    at Module._resolveFilename (/home/robel/ecommerce/src/server/node_modules/module-alias/index.js:49:29)
+    at Module._load (node:internal/modules/cjs/loader:1038:27)
+    at Module.require (node:internal/modules/cjs/loader:1289:19)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/robel/ecommerce/src/server/dist/infra/passport/passport.js:20:43)
+    at Module._compile (node:internal/modules/cjs/loader:1521:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1623:10)
+    at Module.load (node:internal/modules/cjs/loader:1266:32)
+    at Module._load (node:internal/modules/cjs/loader:1091:12)
+[2026-02-13T08:58:10.755Z] [31MERROR[39M: uncaughtException: Cannot find module '/home/robel/ecommerce/src/server/src/infra/database/database.config'
+Require stack:
+- /home/robel/ecommerce/src/server/dist/infra/passport/passport.js
+- /home/robel/ecommerce/src/server/dist/app.js
+- /home/robel/ecommerce/src/server/dist/server.js
+Error: Cannot find module '/home/robel/ecommerce/src/server/src/infra/database/database.config'
+Require stack:
+- /home/robel/ecommerce/src/server/dist/infra/passport/passport.js
+- /home/robel/ecommerce/src/server/dist/app.js
+- /home/robel/ecommerce/src/server/dist/server.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1207:15)
+    at Module._resolveFilename (/home/robel/ecommerce/src/server/node_modules/module-alias/index.js:49:29)
+    at Module._load (node:internal/modules/cjs/loader:1038:27)
+    at Module.require (node:internal/modules/cjs/loader:1289:19)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/robel/ecommerce/src/server/dist/infra/passport/passport.js:20:43)
+    at Module._compile (node:internal/modules/cjs/loader:1521:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1623:10)
+    at Module.load (node:internal/modules/cjs/loader:1266:32)
+    at Module._load (node:internal/modules/cjs/loader:1091:12)
+[2026-02-13T08:58:34.425Z] [31MERROR[39M: uncaughtException: Cannot find module '/home/robel/ecommerce/src/server/src/infra/database/database.config'
+Require stack:
+- /home/robel/ecommerce/src/server/dist/infra/passport/passport.js
+- /home/robel/ecommerce/src/server/dist/app.js
+- /home/robel/ecommerce/src/server/dist/server.js
+Error: Cannot find module '/home/robel/ecommerce/src/server/src/infra/database/database.config'
+Require stack:
+- /home/robel/ecommerce/src/server/dist/infra/passport/passport.js
+- /home/robel/ecommerce/src/server/dist/app.js
+- /home/robel/ecommerce/src/server/dist/server.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1207:15)
+    at Module._resolveFilename (/home/robel/ecommerce/src/server/node_modules/module-alias/index.js:49:29)
+    at Module._load (node:internal/modules/cjs/loader:1038:27)
+    at Module.require (node:internal/modules/cjs/loader:1289:19)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/robel/ecommerce/src/server/dist/infra/passport/passport.js:20:43)
+    at Module._compile (node:internal/modules/cjs/loader:1521:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1623:10)
+    at Module.load (node:internal/modules/cjs/loader:1266:32)
+    at Module._load (node:internal/modules/cjs/loader:1091:12)
+[2026-02-13T08:59:01.115Z] [31MERROR[39M: uncaughtException: Cannot find module '/home/robel/ecommerce/src/server/src/infra/database/database.config'
+Require stack:
+- /home/robel/ecommerce/src/server/dist/infra/passport/passport.js
+- /home/robel/ecommerce/src/server/dist/app.js
+- /home/robel/ecommerce/src/server/dist/server.js
+Error: Cannot find module '/home/robel/ecommerce/src/server/src/infra/database/database.config'
+Require stack:
+- /home/robel/ecommerce/src/server/dist/infra/passport/passport.js
+- /home/robel/ecommerce/src/server/dist/app.js
+- /home/robel/ecommerce/src/server/dist/server.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1207:15)
+    at Module._resolveFilename (/home/robel/ecommerce/src/server/node_modules/module-alias/index.js:49:29)
+    at Module._load (node:internal/modules/cjs/loader:1038:27)
+    at Module.require (node:internal/modules/cjs/loader:1289:19)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/robel/ecommerce/src/server/dist/infra/passport/passport.js:20:43)
+    at Module._compile (node:internal/modules/cjs/loader:1521:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1623:10)
+    at Module.load (node:internal/modules/cjs/loader:1266:32)
+    at Module._load (node:internal/modules/cjs/loader:1091:12)
+[2026-02-13T08:59:19.897Z] [31MERROR[39M: uncaughtException: Cannot find module '/home/robel/ecommerce/src/server/src/infra/database/database.config'
+Require stack:
+- /home/robel/ecommerce/src/server/dist/infra/passport/passport.js
+- /home/robel/ecommerce/src/server/dist/app.js
+- /home/robel/ecommerce/src/server/dist/server.js
+Error: Cannot find module '/home/robel/ecommerce/src/server/src/infra/database/database.config'
+Require stack:
+- /home/robel/ecommerce/src/server/dist/infra/passport/passport.js
+- /home/robel/ecommerce/src/server/dist/app.js
+- /home/robel/ecommerce/src/server/dist/server.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1207:15)
+    at Module._resolveFilename (/home/robel/ecommerce/src/server/node_modules/module-alias/index.js:49:29)
+    at Module._load (node:internal/modules/cjs/loader:1038:27)
+    at Module.require (node:internal/modules/cjs/loader:1289:19)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/robel/ecommerce/src/server/dist/infra/passport/passport.js:20:43)
+    at Module._compile (node:internal/modules/cjs/loader:1521:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1623:10)
+    at Module.load (node:internal/modules/cjs/loader:1266:32)
+    at Module._load (node:internal/modules/cjs/loader:1091:12)
+[2026-02-13T08:59:45.184Z] [31MERROR[39M: uncaughtException: Cannot find module '/home/robel/ecommerce/src/server/src/infra/database/database.config'
+Require stack:
+- /home/robel/ecommerce/src/server/dist/infra/passport/passport.js
+- /home/robel/ecommerce/src/server/dist/app.js
+- /home/robel/ecommerce/src/server/dist/server.js
+Error: Cannot find module '/home/robel/ecommerce/src/server/src/infra/database/database.config'
+Require stack:
+- /home/robel/ecommerce/src/server/dist/infra/passport/passport.js
+- /home/robel/ecommerce/src/server/dist/app.js
+- /home/robel/ecommerce/src/server/dist/server.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1207:15)
+    at Module._resolveFilename (/home/robel/ecommerce/src/server/node_modules/module-alias/index.js:49:29)
+    at Module._load (node:internal/modules/cjs/loader:1038:27)
+    at Module.require (node:internal/modules/cjs/loader:1289:19)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/robel/ecommerce/src/server/dist/infra/passport/passport.js:20:43)
+    at Module._compile (node:internal/modules/cjs/loader:1521:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1623:10)
+    at Module.load (node:internal/modules/cjs/loader:1266:32)
+    at Module._load (node:internal/modules/cjs/loader:1091:12)
+[2026-02-13T09:00:09.934Z] [31MERROR[39M: uncaughtException: Cannot find module '/home/robel/ecommerce/src/server/src/infra/database/database.config'
+Require stack:
+- /home/robel/ecommerce/src/server/dist/infra/passport/passport.js
+- /home/robel/ecommerce/src/server/dist/app.js
+- /home/robel/ecommerce/src/server/dist/server.js
+Error: Cannot find module '/home/robel/ecommerce/src/server/src/infra/database/database.config'
+Require stack:
+- /home/robel/ecommerce/src/server/dist/infra/passport/passport.js
+- /home/robel/ecommerce/src/server/dist/app.js
+- /home/robel/ecommerce/src/server/dist/server.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1207:15)
+    at Module._resolveFilename (/home/robel/ecommerce/src/server/node_modules/module-alias/index.js:49:29)
+    at Module._load (node:internal/modules/cjs/loader:1038:27)
+    at Module.require (node:internal/modules/cjs/loader:1289:19)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/robel/ecommerce/src/server/dist/infra/passport/passport.js:20:43)
+    at Module._compile (node:internal/modules/cjs/loader:1521:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1623:10)
+    at Module.load (node:internal/modules/cjs/loader:1266:32)
+    at Module._load (node:internal/modules/cjs/loader:1091:12)
+[2026-02-13T09:00:29.500Z] [31MERROR[39M: uncaughtException: Cannot find module '/home/robel/ecommerce/src/server/src/infra/database/database.config'
+Require stack:
+- /home/robel/ecommerce/src/server/dist/infra/passport/passport.js
+- /home/robel/ecommerce/src/server/dist/app.js
+- /home/robel/ecommerce/src/server/dist/server.js
+Error: Cannot find module '/home/robel/ecommerce/src/server/src/infra/database/database.config'
+Require stack:
+- /home/robel/ecommerce/src/server/dist/infra/passport/passport.js
+- /home/robel/ecommerce/src/server/dist/app.js
+- /home/robel/ecommerce/src/server/dist/server.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1207:15)
+    at Module._resolveFilename (/home/robel/ecommerce/src/server/node_modules/module-alias/index.js:49:29)
+    at Module._load (node:internal/modules/cjs/loader:1038:27)
+    at Module.require (node:internal/modules/cjs/loader:1289:19)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/robel/ecommerce/src/server/dist/infra/passport/passport.js:20:43)
+    at Module._compile (node:internal/modules/cjs/loader:1521:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1623:10)
+    at Module.load (node:internal/modules/cjs/loader:1266:32)
+    at Module._load (node:internal/modules/cjs/loader:1091:12)
+[2026-02-13T09:01:13.875Z] [31MERROR[39M: uncaughtException: Cannot find module '/home/robel/ecommerce/src/server/src/infra/database/database.config'
+Require stack:
+- /home/robel/ecommerce/src/server/dist/infra/passport/passport.js
+- /home/robel/ecommerce/src/server/dist/app.js
+- /home/robel/ecommerce/src/server/dist/server.js
+Error: Cannot find module '/home/robel/ecommerce/src/server/src/infra/database/database.config'
+Require stack:
+- /home/robel/ecommerce/src/server/dist/infra/passport/passport.js
+- /home/robel/ecommerce/src/server/dist/app.js
+- /home/robel/ecommerce/src/server/dist/server.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1207:15)
+    at Module._resolveFilename (/home/robel/ecommerce/src/server/node_modules/module-alias/index.js:49:29)
+    at Module._load (node:internal/modules/cjs/loader:1038:27)
+    at Module.require (node:internal/modules/cjs/loader:1289:19)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/robel/ecommerce/src/server/dist/infra/passport/passport.js:21:43)
+    at Module._compile (node:internal/modules/cjs/loader:1521:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1623:10)
+    at Module.load (node:internal/modules/cjs/loader:1266:32)
+    at Module._load (node:internal/modules/cjs/loader:1091:12)
+[2026-02-13T09:01:35.635Z] [31MERROR[39M: uncaughtException: Cannot find module '/home/robel/ecommerce/src/server/src/infra/database/database.config'
+Require stack:
+- /home/robel/ecommerce/src/server/dist/infra/passport/passport.js
+- /home/robel/ecommerce/src/server/dist/app.js
+- /home/robel/ecommerce/src/server/dist/server.js
+Error: Cannot find module '/home/robel/ecommerce/src/server/src/infra/database/database.config'
+Require stack:
+- /home/robel/ecommerce/src/server/dist/infra/passport/passport.js
+- /home/robel/ecommerce/src/server/dist/app.js
+- /home/robel/ecommerce/src/server/dist/server.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1207:15)
+    at Module._resolveFilename (/home/robel/ecommerce/src/server/node_modules/module-alias/index.js:49:29)
+    at Module._load (node:internal/modules/cjs/loader:1038:27)
+    at Module.require (node:internal/modules/cjs/loader:1289:19)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/robel/ecommerce/src/server/dist/infra/passport/passport.js:21:43)
+    at Module._compile (node:internal/modules/cjs/loader:1521:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1623:10)
+    at Module.load (node:internal/modules/cjs/loader:1266:32)
+    at Module._load (node:internal/modules/cjs/loader:1091:12)
+[2026-02-13T09:01:59.342Z] [31MERROR[39M: uncaughtException: Cannot find module '/home/robel/ecommerce/src/server/src/infra/database/database.config'
+Require stack:
+- /home/robel/ecommerce/src/server/dist/infra/passport/passport.js
+- /home/robel/ecommerce/src/server/dist/app.js
+- /home/robel/ecommerce/src/server/dist/server.js
+Error: Cannot find module '/home/robel/ecommerce/src/server/src/infra/database/database.config'
+Require stack:
+- /home/robel/ecommerce/src/server/dist/infra/passport/passport.js
+- /home/robel/ecommerce/src/server/dist/app.js
+- /home/robel/ecommerce/src/server/dist/server.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1207:15)
+    at Module._resolveFilename (/home/robel/ecommerce/src/server/node_modules/module-alias/index.js:49:29)
+    at Module._load (node:internal/modules/cjs/loader:1038:27)
+    at Module.require (node:internal/modules/cjs/loader:1289:19)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/robel/ecommerce/src/server/dist/infra/passport/passport.js:22:43)
+    at Module._compile (node:internal/modules/cjs/loader:1521:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1623:10)
+    at Module.load (node:internal/modules/cjs/loader:1266:32)
+    at Module._load (node:internal/modules/cjs/loader:1091:12)
+[2026-02-13T09:02:24.337Z] [31MERROR[39M: uncaughtException: Cannot find module '/home/robel/ecommerce/src/server/src/infra/database/database.config'
+Require stack:
+- /home/robel/ecommerce/src/server/dist/infra/passport/passport.js
+- /home/robel/ecommerce/src/server/dist/app.js
+- /home/robel/ecommerce/src/server/dist/server.js
+Error: Cannot find module '/home/robel/ecommerce/src/server/src/infra/database/database.config'
+Require stack:
+- /home/robel/ecommerce/src/server/dist/infra/passport/passport.js
+- /home/robel/ecommerce/src/server/dist/app.js
+- /home/robel/ecommerce/src/server/dist/server.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1207:15)
+    at Module._resolveFilename (/home/robel/ecommerce/src/server/node_modules/module-alias/index.js:49:29)
+    at Module._load (node:internal/modules/cjs/loader:1038:27)
+    at Module.require (node:internal/modules/cjs/loader:1289:19)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/robel/ecommerce/src/server/dist/infra/passport/passport.js:23:43)
+    at Module._compile (node:internal/modules/cjs/loader:1521:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1623:10)
+    at Module.load (node:internal/modules/cjs/loader:1266:32)
+    at Module._load (node:internal/modules/cjs/loader:1091:12)
+[2026-02-13T09:02:55.455Z] [31MERROR[39M: uncaughtException: Cannot find module '/home/robel/ecommerce/src/server/src/infra/database/database.config'
+Require stack:
+- /home/robel/ecommerce/src/server/dist/infra/passport/passport.js
+- /home/robel/ecommerce/src/server/dist/app.js
+- /home/robel/ecommerce/src/server/dist/server.js
+Error: Cannot find module '/home/robel/ecommerce/src/server/src/infra/database/database.config'
+Require stack:
+- /home/robel/ecommerce/src/server/dist/infra/passport/passport.js
+- /home/robel/ecommerce/src/server/dist/app.js
+- /home/robel/ecommerce/src/server/dist/server.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1207:15)
+    at Module._resolveFilename (/home/robel/ecommerce/src/server/node_modules/module-alias/index.js:49:29)
+    at Module._load (node:internal/modules/cjs/loader:1038:27)
+    at Module.require (node:internal/modules/cjs/loader:1289:19)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/robel/ecommerce/src/server/dist/infra/passport/passport.js:23:43)
+    at Module._compile (node:internal/modules/cjs/loader:1521:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1623:10)
+    at Module.load (node:internal/modules/cjs/loader:1266:32)
+    at Module._load (node:internal/modules/cjs/loader:1091:12)
+[2026-02-13T09:03:14.085Z] [31MERROR[39M: uncaughtException: Cannot find module '/home/robel/ecommerce/src/server/src/infra/database/database.config'
+Require stack:
+- /home/robel/ecommerce/src/server/dist/infra/passport/passport.js
+- /home/robel/ecommerce/src/server/dist/app.js
+- /home/robel/ecommerce/src/server/dist/server.js
+Error: Cannot find module '/home/robel/ecommerce/src/server/src/infra/database/database.config'
+Require stack:
+- /home/robel/ecommerce/src/server/dist/infra/passport/passport.js
+- /home/robel/ecommerce/src/server/dist/app.js
+- /home/robel/ecommerce/src/server/dist/server.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1207:15)
+    at Module._resolveFilename (/home/robel/ecommerce/src/server/node_modules/module-alias/index.js:49:29)
+    at Module._load (node:internal/modules/cjs/loader:1038:27)
+    at Module.require (node:internal/modules/cjs/loader:1289:19)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/robel/ecommerce/src/server/dist/infra/passport/passport.js:24:43)
+    at Module._compile (node:internal/modules/cjs/loader:1521:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1623:10)
+    at Module.load (node:internal/modules/cjs/loader:1266:32)
+    at Module._load (node:internal/modules/cjs/loader:1091:12)
+[2026-02-13T09:05:51.941Z] [31MERROR[39M: uncaughtException: Cannot find module '/home/robel/ecommerce/src/server/src/infra/database/database.config'
+Require stack:
+- /home/robel/ecommerce/src/server/dist/infra/passport/passport.js
+- /home/robel/ecommerce/src/server/dist/app.js
+- /home/robel/ecommerce/src/server/dist/server.js
+Error: Cannot find module '/home/robel/ecommerce/src/server/src/infra/database/database.config'
+Require stack:
+- /home/robel/ecommerce/src/server/dist/infra/passport/passport.js
+- /home/robel/ecommerce/src/server/dist/app.js
+- /home/robel/ecommerce/src/server/dist/server.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1207:15)
+    at Module._resolveFilename (/home/robel/ecommerce/src/server/node_modules/module-alias/index.js:49:29)
+    at Module._load (node:internal/modules/cjs/loader:1038:27)
+    at Module.require (node:internal/modules/cjs/loader:1289:19)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/robel/ecommerce/src/server/dist/infra/passport/passport.js:24:43)
+    at Module._compile (node:internal/modules/cjs/loader:1521:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1623:10)
+    at Module.load (node:internal/modules/cjs/loader:1266:32)
+    at Module._load (node:internal/modules/cjs/loader:1091:12)
+[2026-02-13T09:05:55.963Z] [31MERROR[39M: uncaughtException: Cannot find module '/home/robel/ecommerce/src/server/src/infra/database/database.config'
+Require stack:
+- /home/robel/ecommerce/src/server/dist/infra/passport/passport.js
+- /home/robel/ecommerce/src/server/dist/app.js
+- /home/robel/ecommerce/src/server/dist/server.js
+Error: Cannot find module '/home/robel/ecommerce/src/server/src/infra/database/database.config'
+Require stack:
+- /home/robel/ecommerce/src/server/dist/infra/passport/passport.js
+- /home/robel/ecommerce/src/server/dist/app.js
+- /home/robel/ecommerce/src/server/dist/server.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1207:15)
+    at Module._resolveFilename (/home/robel/ecommerce/src/server/node_modules/module-alias/index.js:49:29)
+    at Module._load (node:internal/modules/cjs/loader:1038:27)
+    at Module.require (node:internal/modules/cjs/loader:1289:19)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/robel/ecommerce/src/server/dist/infra/passport/passport.js:24:43)
+    at Module._compile (node:internal/modules/cjs/loader:1521:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1623:10)
+    at Module.load (node:internal/modules/cjs/loader:1266:32)
+    at Module._load (node:internal/modules/cjs/loader:1091:12)
+[2026-02-13T09:07:37.896Z] [31MERROR[39M: uncaughtException: Cannot find module '/home/robel/ecommerce/src/server/src/infra/database/database.config'
+Require stack:
+- /home/robel/ecommerce/src/server/dist/infra/passport/passport.js
+- /home/robel/ecommerce/src/server/dist/app.js
+- /home/robel/ecommerce/src/server/dist/server.js
+Error: Cannot find module '/home/robel/ecommerce/src/server/src/infra/database/database.config'
+Require stack:
+- /home/robel/ecommerce/src/server/dist/infra/passport/passport.js
+- /home/robel/ecommerce/src/server/dist/app.js
+- /home/robel/ecommerce/src/server/dist/server.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1207:15)
+    at Module._resolveFilename (/home/robel/ecommerce/src/server/node_modules/module-alias/index.js:49:29)
+    at Module._load (node:internal/modules/cjs/loader:1038:27)
+    at Module.require (node:internal/modules/cjs/loader:1289:19)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/robel/ecommerce/src/server/dist/infra/passport/passport.js:24:43)
+    at Module._compile (node:internal/modules/cjs/loader:1521:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1623:10)
+    at Module.load (node:internal/modules/cjs/loader:1266:32)
+    at Module._load (node:internal/modules/cjs/loader:1091:12)
+[2026-02-13T09:07:39.976Z] [31MERROR[39M: uncaughtException: Cannot find module '/home/robel/ecommerce/src/server/src/infra/database/database.config'
+Require stack:
+- /home/robel/ecommerce/src/server/dist/infra/passport/passport.js
+- /home/robel/ecommerce/src/server/dist/app.js
+- /home/robel/ecommerce/src/server/dist/server.js
+Error: Cannot find module '/home/robel/ecommerce/src/server/src/infra/database/database.config'
+Require stack:
+- /home/robel/ecommerce/src/server/dist/infra/passport/passport.js
+- /home/robel/ecommerce/src/server/dist/app.js
+- /home/robel/ecommerce/src/server/dist/server.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1207:15)
+    at Module._resolveFilename (/home/robel/ecommerce/src/server/node_modules/module-alias/index.js:49:29)
+    at Module._load (node:internal/modules/cjs/loader:1038:27)
+    at Module.require (node:internal/modules/cjs/loader:1289:19)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/robel/ecommerce/src/server/dist/infra/passport/passport.js:24:43)
+    at Module._compile (node:internal/modules/cjs/loader:1521:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1623:10)
+    at Module.load (node:internal/modules/cjs/loader:1266:32)
+    at Module._load (node:internal/modules/cjs/loader:1091:12)
+[2026-02-13T09:08:59.607Z] [31MERROR[39M: uncaughtException: Cannot find module '/home/robel/ecommerce/src/server/src/infra/database/database.config'
+Require stack:
+- /home/robel/ecommerce/src/server/dist/infra/passport/passport.js
+- /home/robel/ecommerce/src/server/dist/app.js
+- /home/robel/ecommerce/src/server/dist/server.js
+Error: Cannot find module '/home/robel/ecommerce/src/server/src/infra/database/database.config'
+Require stack:
+- /home/robel/ecommerce/src/server/dist/infra/passport/passport.js
+- /home/robel/ecommerce/src/server/dist/app.js
+- /home/robel/ecommerce/src/server/dist/server.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1207:15)
+    at Module._resolveFilename (/home/robel/ecommerce/src/server/node_modules/module-alias/index.js:49:29)
+    at Module._load (node:internal/modules/cjs/loader:1038:27)
+    at Module.require (node:internal/modules/cjs/loader:1289:19)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/robel/ecommerce/src/server/dist/infra/passport/passport.js:24:43)
+    at Module._compile (node:internal/modules/cjs/loader:1521:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1623:10)
+    at Module.load (node:internal/modules/cjs/loader:1266:32)
+    at Module._load (node:internal/modules/cjs/loader:1091:12)
+[2026-02-13T09:09:22.839Z] [31MERROR[39M: uncaughtException: Cannot find module '/home/robel/ecommerce/src/server/src/infra/database/database.config'
+Require stack:
+- /home/robel/ecommerce/src/server/dist/infra/passport/passport.js
+- /home/robel/ecommerce/src/server/dist/app.js
+- /home/robel/ecommerce/src/server/dist/server.js
+Error: Cannot find module '/home/robel/ecommerce/src/server/src/infra/database/database.config'
+Require stack:
+- /home/robel/ecommerce/src/server/dist/infra/passport/passport.js
+- /home/robel/ecommerce/src/server/dist/app.js
+- /home/robel/ecommerce/src/server/dist/server.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1207:15)
+    at Module._resolveFilename (/home/robel/ecommerce/src/server/node_modules/module-alias/index.js:49:29)
+    at Module._load (node:internal/modules/cjs/loader:1038:27)
+    at Module.require (node:internal/modules/cjs/loader:1289:19)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/robel/ecommerce/src/server/dist/infra/passport/passport.js:24:43)
+    at Module._compile (node:internal/modules/cjs/loader:1521:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1623:10)
+    at Module.load (node:internal/modules/cjs/loader:1266:32)
+    at Module._load (node:internal/modules/cjs/loader:1091:12)
+[2026-02-13T09:11:02.482Z] [31MERROR[39M: uncaughtException: Cannot find module '/home/robel/ecommerce/src/server/src/infra/database/database.config'
+Require stack:
+- /home/robel/ecommerce/src/server/dist/infra/passport/passport.js
+- /home/robel/ecommerce/src/server/dist/app.js
+- /home/robel/ecommerce/src/server/dist/server.js
+Error: Cannot find module '/home/robel/ecommerce/src/server/src/infra/database/database.config'
+Require stack:
+- /home/robel/ecommerce/src/server/dist/infra/passport/passport.js
+- /home/robel/ecommerce/src/server/dist/app.js
+- /home/robel/ecommerce/src/server/dist/server.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1207:15)
+    at Module._resolveFilename (/home/robel/ecommerce/src/server/node_modules/module-alias/index.js:49:29)
+    at Module._load (node:internal/modules/cjs/loader:1038:27)
+    at Module.require (node:internal/modules/cjs/loader:1289:19)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/robel/ecommerce/src/server/dist/infra/passport/passport.js:24:43)
+    at Module._compile (node:internal/modules/cjs/loader:1521:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1623:10)
+    at Module.load (node:internal/modules/cjs/loader:1266:32)
+    at Module._load (node:internal/modules/cjs/loader:1091:12)
+[2026-02-13T09:11:13.929Z] [31MERROR[39M: uncaughtException: Cannot find module '/home/robel/ecommerce/src/server/src/infra/database/database.config'
+Require stack:
+- /home/robel/ecommerce/src/server/dist/infra/passport/passport.js
+- /home/robel/ecommerce/src/server/dist/app.js
+- /home/robel/ecommerce/src/server/dist/server.js
+Error: Cannot find module '/home/robel/ecommerce/src/server/src/infra/database/database.config'
+Require stack:
+- /home/robel/ecommerce/src/server/dist/infra/passport/passport.js
+- /home/robel/ecommerce/src/server/dist/app.js
+- /home/robel/ecommerce/src/server/dist/server.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1207:15)
+    at Module._resolveFilename (/home/robel/ecommerce/src/server/node_modules/module-alias/index.js:49:29)
+    at Module._load (node:internal/modules/cjs/loader:1038:27)
+    at Module.require (node:internal/modules/cjs/loader:1289:19)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/robel/ecommerce/src/server/dist/infra/passport/passport.js:24:43)
+    at Module._compile (node:internal/modules/cjs/loader:1521:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1623:10)
+    at Module.load (node:internal/modules/cjs/loader:1266:32)
+    at Module._load (node:internal/modules/cjs/loader:1091:12)
+[2026-02-13T09:11:54.474Z] [31MERROR[39M: uncaughtException: Cannot find module '/home/robel/ecommerce/src/server/src/infra/database/database.config'
+Require stack:
+- /home/robel/ecommerce/src/server/dist/infra/passport/passport.js
+- /home/robel/ecommerce/src/server/dist/app.js
+- /home/robel/ecommerce/src/server/dist/server.js
+Error: Cannot find module '/home/robel/ecommerce/src/server/src/infra/database/database.config'
+Require stack:
+- /home/robel/ecommerce/src/server/dist/infra/passport/passport.js
+- /home/robel/ecommerce/src/server/dist/app.js
+- /home/robel/ecommerce/src/server/dist/server.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1207:15)
+    at Module._resolveFilename (/home/robel/ecommerce/src/server/node_modules/module-alias/index.js:49:29)
+    at Module._load (node:internal/modules/cjs/loader:1038:27)
+    at Module.require (node:internal/modules/cjs/loader:1289:19)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/robel/ecommerce/src/server/dist/infra/passport/passport.js:24:43)
+    at Module._compile (node:internal/modules/cjs/loader:1521:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1623:10)
+    at Module.load (node:internal/modules/cjs/loader:1266:32)
+    at Module._load (node:internal/modules/cjs/loader:1091:12)
+[2026-02-13T09:12:16.942Z] [31MERROR[39M: uncaughtException: Cannot find module '/home/robel/ecommerce/src/server/src/infra/database/database.config'
+Require stack:
+- /home/robel/ecommerce/src/server/dist/infra/passport/passport.js
+- /home/robel/ecommerce/src/server/dist/app.js
+- /home/robel/ecommerce/src/server/dist/server.js
+Error: Cannot find module '/home/robel/ecommerce/src/server/src/infra/database/database.config'
+Require stack:
+- /home/robel/ecommerce/src/server/dist/infra/passport/passport.js
+- /home/robel/ecommerce/src/server/dist/app.js
+- /home/robel/ecommerce/src/server/dist/server.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1207:15)
+    at Module._resolveFilename (/home/robel/ecommerce/src/server/node_modules/module-alias/index.js:49:29)
+    at Module._load (node:internal/modules/cjs/loader:1038:27)
+    at Module.require (node:internal/modules/cjs/loader:1289:19)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/robel/ecommerce/src/server/dist/infra/passport/passport.js:24:43)
+    at Module._compile (node:internal/modules/cjs/loader:1521:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1623:10)
+    at Module.load (node:internal/modules/cjs/loader:1266:32)
+    at Module._load (node:internal/modules/cjs/loader:1091:12)
+[2026-02-13T09:13:13.587Z] [31MERROR[39M: uncaughtException: Cannot find module '/home/robel/ecommerce/src/server/src/infra/database/database.config'
+Require stack:
+- /home/robel/ecommerce/src/server/dist/infra/passport/passport.js
+- /home/robel/ecommerce/src/server/dist/app.js
+- /home/robel/ecommerce/src/server/dist/server.js
+Error: Cannot find module '/home/robel/ecommerce/src/server/src/infra/database/database.config'
+Require stack:
+- /home/robel/ecommerce/src/server/dist/infra/passport/passport.js
+- /home/robel/ecommerce/src/server/dist/app.js
+- /home/robel/ecommerce/src/server/dist/server.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1207:15)
+    at Module._resolveFilename (/home/robel/ecommerce/src/server/node_modules/module-alias/index.js:49:29)
+    at Module._load (node:internal/modules/cjs/loader:1038:27)
+    at Module.require (node:internal/modules/cjs/loader:1289:19)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/robel/ecommerce/src/server/dist/infra/passport/passport.js:24:43)
+    at Module._compile (node:internal/modules/cjs/loader:1521:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1623:10)
+    at Module.load (node:internal/modules/cjs/loader:1266:32)
+    at Module._load (node:internal/modules/cjs/loader:1091:12)
+[2026-02-13T09:13:38.167Z] [31MERROR[39M: uncaughtException: Cannot find module '/home/robel/ecommerce/src/server/src/infra/database/database.config'
+Require stack:
+- /home/robel/ecommerce/src/server/dist/infra/passport/passport.js
+- /home/robel/ecommerce/src/server/dist/app.js
+- /home/robel/ecommerce/src/server/dist/server.js
+Error: Cannot find module '/home/robel/ecommerce/src/server/src/infra/database/database.config'
+Require stack:
+- /home/robel/ecommerce/src/server/dist/infra/passport/passport.js
+- /home/robel/ecommerce/src/server/dist/app.js
+- /home/robel/ecommerce/src/server/dist/server.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1207:15)
+    at Module._resolveFilename (/home/robel/ecommerce/src/server/node_modules/module-alias/index.js:49:29)
+    at Module._load (node:internal/modules/cjs/loader:1038:27)
+    at Module.require (node:internal/modules/cjs/loader:1289:19)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/robel/ecommerce/src/server/dist/infra/passport/passport.js:24:43)
+    at Module._compile (node:internal/modules/cjs/loader:1521:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1623:10)
+    at Module.load (node:internal/modules/cjs/loader:1266:32)
+    at Module._load (node:internal/modules/cjs/loader:1091:12)
+[2026-02-13T09:13:40.888Z] [31MERROR[39M: uncaughtException: Cannot find module '/home/robel/ecommerce/src/server/src/infra/database/database.config'
+Require stack:
+- /home/robel/ecommerce/src/server/dist/infra/passport/passport.js
+- /home/robel/ecommerce/src/server/dist/app.js
+- /home/robel/ecommerce/src/server/dist/server.js
+Error: Cannot find module '/home/robel/ecommerce/src/server/src/infra/database/database.config'
+Require stack:
+- /home/robel/ecommerce/src/server/dist/infra/passport/passport.js
+- /home/robel/ecommerce/src/server/dist/app.js
+- /home/robel/ecommerce/src/server/dist/server.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1207:15)
+    at Module._resolveFilename (/home/robel/ecommerce/src/server/node_modules/module-alias/index.js:49:29)
+    at Module._load (node:internal/modules/cjs/loader:1038:27)
+    at Module.require (node:internal/modules/cjs/loader:1289:19)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/robel/ecommerce/src/server/dist/infra/passport/passport.js:24:43)
+    at Module._compile (node:internal/modules/cjs/loader:1521:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1623:10)
+    at Module.load (node:internal/modules/cjs/loader:1266:32)
+    at Module._load (node:internal/modules/cjs/loader:1091:12)
+[2026-02-13T10:09:25.118Z] [31MERROR[39M: uncaughtException: Cannot find module '/app/src/infra/database/database.config'
+Require stack:
+- /app/dist/infra/passport/passport.js
+- /app/dist/app.js
+- /app/dist/server.js
+Error: Cannot find module '/app/src/infra/database/database.config'
+Require stack:
+- /app/dist/infra/passport/passport.js
+- /app/dist/app.js
+- /app/dist/server.js
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1383:15)
+    at Module._resolveFilename (/app/node_modules/module-alias/index.js:49:29)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1025:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1030:22)
+    at Function._load (node:internal/modules/cjs/loader:1192:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at Module.require (node:internal/modules/cjs/loader:1463:12)
+    at require (node:internal/modules/helpers:147:16)
+    at Object.<anonymous> (/app/dist/infra/passport/passport.js:24:43)
+[2026-02-13T11:21:27.524Z] [31MERROR[39M: uncaughtException: Cannot find module '/app/src/infra/database/database.config'
+Require stack:
+- /app/dist/infra/passport/passport.js
+- /app/dist/app.js
+- /app/dist/server.js
+Error: Cannot find module '/app/src/infra/database/database.config'
+Require stack:
+- /app/dist/infra/passport/passport.js
+- /app/dist/app.js
+- /app/dist/server.js
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1383:15)
+    at Module._resolveFilename (/app/node_modules/module-alias/index.js:49:29)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1025:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1030:22)
+    at Function._load (node:internal/modules/cjs/loader:1192:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at Module.require (node:internal/modules/cjs/loader:1463:12)
+    at require (node:internal/modules/helpers:147:16)
+    at Object.<anonymous> (/app/dist/infra/passport/passport.js:24:43)
+[2026-02-21T23:34:09.176Z] [31MERROR[39M: uncaughtException: Cannot find module '/home/robel/cecommerce/src/server/src/infra/database/database.config'
+Require stack:
+- /home/robel/cecommerce/src/server/dist/infra/passport/passport.js
+- /home/robel/cecommerce/src/server/dist/app.js
+- /home/robel/cecommerce/src/server/dist/server.js
+Error: Cannot find module '/home/robel/cecommerce/src/server/src/infra/database/database.config'
+Require stack:
+- /home/robel/cecommerce/src/server/dist/infra/passport/passport.js
+- /home/robel/cecommerce/src/server/dist/app.js
+- /home/robel/cecommerce/src/server/dist/server.js
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1383:15)
+    at Module._resolveFilename (/home/robel/cecommerce/src/server/node_modules/module-alias/index.js:49:29)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1025:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1030:22)
+    at Function._load (node:internal/modules/cjs/loader:1192:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at Module.require (node:internal/modules/cjs/loader:1463:12)
+    at require (node:internal/modules/helpers:147:16)
+    at Object.<anonymous> (/home/robel/cecommerce/src/server/dist/infra/passport/passport.js:24:43)
+[2026-02-22T23:22:13.752Z] [31MERROR[39M: uncaughtException: Cannot find module '/home/robel/cecommerce/src/server/src/infra/database/database.config'
+Require stack:
+- /home/robel/cecommerce/src/server/dist/infra/passport/passport.js
+- /home/robel/cecommerce/src/server/dist/app.js
+- /home/robel/cecommerce/src/server/dist/server.js
+Error: Cannot find module '/home/robel/cecommerce/src/server/src/infra/database/database.config'
+Require stack:
+- /home/robel/cecommerce/src/server/dist/infra/passport/passport.js
+- /home/robel/cecommerce/src/server/dist/app.js
+- /home/robel/cecommerce/src/server/dist/server.js
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1383:15)
+    at Module._resolveFilename (/home/robel/cecommerce/src/server/node_modules/module-alias/index.js:49:29)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1025:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1030:22)
+    at Function._load (node:internal/modules/cjs/loader:1192:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at Module.require (node:internal/modules/cjs/loader:1463:12)
+    at require (node:internal/modules/helpers:147:16)
+    at Object.<anonymous> (/home/robel/cecommerce/src/server/dist/infra/passport/passport.js:24:43)

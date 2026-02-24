@@ -13,8 +13,8 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.UserRepository = void 0;
-const database_config_1 = __importDefault(require("@/infra/database/database.config"));
-const authUtils_1 = require("@/shared/utils/authUtils");
+const database_config_1 = __importDefault(require("../../infra/database/database.config"));
+const authUtils_1 = require("../../shared/utils/authUtils");
 class UserRepository {
     findAllUsers() {
         return __awaiter(this, void 0, void 0, function* () {
@@ -30,7 +30,7 @@ class UserRepository {
                     name: true,
                     email: true,
                     avatar: true,
-                    role: true
+                    role: true,
                 },
             });
         });
@@ -53,7 +53,7 @@ class UserRepository {
     countUsersByRole(role) {
         return __awaiter(this, void 0, void 0, function* () {
             return yield database_config_1.default.user.count({
-                where: { role: role }
+                where: { role: role },
             });
         });
     }

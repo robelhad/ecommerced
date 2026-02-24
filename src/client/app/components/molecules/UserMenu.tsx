@@ -17,6 +17,7 @@ import useClickOutside from "@/app/hooks/dom/useClickOutside";
 import useEventListener from "@/app/hooks/dom/useEventListener";
 import { useAppDispatch } from "@/app/store/hooks";
 import { logout } from "@/app/store/slices/AuthSlice";
+import { apiSlice } from "@/app/store/slices/ApiSlice";
 
 const UserMenu = ({ menuOpen, closeMenu, user }) => {
   const [signout] = useSignOutMutation();
@@ -36,6 +37,7 @@ const UserMenu = ({ menuOpen, closeMenu, user }) => {
     try {
       await signout();
       dispatch(logout());
+      dispatch(apiSlice.util.resetApiState());
       router.push("/sign-in");
     } catch (error) {
       console.error("Error signing out:", error);

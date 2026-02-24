@@ -16,7 +16,7 @@ exports.isTokenBlacklisted = exports.blacklistToken = void 0;
 exports.generateAccessToken = generateAccessToken;
 exports.generateRefreshToken = generateRefreshToken;
 const jsonwebtoken_1 = __importDefault(require("jsonwebtoken"));
-const redis_1 = __importDefault(require("@/infra/cache/redis"));
+const redis_1 = __importDefault(require("../../../infra/cache/redis"));
 function generateAccessToken(id) {
     return jsonwebtoken_1.default.sign({ id }, process.env.ACCESS_TOKEN_SECRET, {
         expiresIn: "15m",

@@ -13,7 +13,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.ShipmentRepository = void 0;
-const database_config_1 = __importDefault(require("@/infra/database/database.config"));
+const database_config_1 = __importDefault(require("../../infra/database/database.config"));
 class ShipmentRepository {
     createShipment(data) {
         return __awaiter(this, void 0, void 0, function* () {

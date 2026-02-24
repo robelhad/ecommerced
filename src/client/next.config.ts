@@ -23,6 +23,15 @@ const nextConfig: NextConfig = {
       "res.cloudinary.com",
       "pbs.twimg.com",
       "store.storeimages.cdn-apple.com",
+      "192.168.161.140",
+    ],
+    remotePatterns: [
+      {
+        protocol: 'http',
+        hostname: '192.168.161.140',
+        port: '5000',
+        pathname: '/images/**',
+      },
     ],
   },
 };

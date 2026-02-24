@@ -13,9 +13,9 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.OrderController = void 0;
-const asyncHandler_1 = __importDefault(require("@/shared/utils/asyncHandler"));
-const sendResponse_1 = __importDefault(require("@/shared/utils/sendResponse"));
-const AppError_1 = __importDefault(require("@/shared/errors/AppError"));
+const asyncHandler_1 = __importDefault(require("../../shared/utils/asyncHandler"));
+const sendResponse_1 = __importDefault(require("../../shared/utils/sendResponse"));
+const AppError_1 = __importDefault(require("../../shared/errors/AppError"));
 class OrderController {
     constructor(orderService) {
         this.orderService = orderService;

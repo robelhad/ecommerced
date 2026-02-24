@@ -13,18 +13,12 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.default = configurePassport;
-
 const passport_1 = __importDefault(require("passport"));
-
 const passport_google_oauth20_1 = require("passport-google-oauth20");
-
 const passport_facebook_1 = require("passport-facebook");
 const passport_twitter_1 = require("passport-twitter");
-
-const database_config_1 = __importDefault(require("@/infra/database/database.config"));
-console.log(`Server is running on test 1`);
-const tokenUtils_1 = require("@/shared/utils/auth/tokenUtils");
-
+const database_config_1 = __importDefault(require("../../infra/database/database.config"));
+const tokenUtils_1 = require("../../shared/utils/auth/tokenUtils");
 function configurePassport() {
     // Google Strategy (unchanged)
     passport_1.default.use(new passport_google_oauth20_1.Strategy({
@@ -70,6 +64,55 @@ function configurePassport() {
             return done(error);
         }
     })));
+    /*
+    
+    passport.use(
+      "microsoft",
+      new OIDCStrategy(
+        {
+          identityMetadata: `https://login.microsoftonline.com/${process.env.MICROSOFT_TENANT_ID}/v2.0/.well-known/openid-configuration`,
+          clientID: process.env.MICROSOFT_CLIENT_ID!,
+          clientSecret: process.env.MICROSOFT_CLIENT_SECRET!,
+          responseType: "code",
+          responseMode: "query",
+          redirectUrl:
+            process.env.NODE_ENV === "production"
+              ? process.env.MICROSOFT_CALLBACK_URL_PROD
+              : process.env.MICROSOFT_CALLBACK_URL_DEV,
+          scope: ["openid", "profile", "email"],
+          passReqToCallback: false,
+        },
+        async (
+          _iss: string,
+          _sub: string,
+          profile: any,
+          accessToken: string,
+          refreshToken: string,
+          done: (error: any, user?: any) => void
+        ) => {
+          try {
+            
+            const email =
+              profile._json?.email ||
+              profile._json?.preferred_username ||
+              profile.upn ||
+              profile.displayName;
+    
+            const user = {
+              id: profile.oid,
+              email,
+              name: profile.displayName,
+              provider: "microsoft",
+            };
+              console.log("❌ Failed to connect to DB:");
+            return done(null, user);
+          } catch (err) {
+            return done(err as Error, undefined);
+          }
+        }
+      )
+    );
+    */
     // Facebook Strategy (unchanged, assuming it works)
     passport_1.default.use(new passport_facebook_1.Strategy({
         clientID: process.env.FACEBOOK_APP_ID,

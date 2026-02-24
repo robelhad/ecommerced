@@ -14,15 +14,16 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.AuthService = void 0;
 const crypto_1 = __importDefault(require("crypto"));
-const AppError_1 = __importDefault(require("@/shared/errors/AppError"));
-const sendEmail_1 = __importDefault(require("@/shared/utils/sendEmail"));
-const passwordReset_1 = __importDefault(require("@/shared/templates/passwordReset"));
-const authUtils_1 = require("@/shared/utils/authUtils");
+const AppError_1 = __importDefault(require("../../shared/errors/AppError"));
+const sendEmail_1 = __importDefault(require("../../shared/utils/sendEmail"));
+const passwordReset_1 = __importDefault(require("../../shared/templates/passwordReset"));
+const authUtils_1 = require("../../shared/utils/authUtils");
 const client_1 = require("@prisma/client");
-const logger_1 = __importDefault(require("@/infra/winston/logger"));
+const logger_1 = __importDefault(require("../../infra/winston/logger"));
 const jsonwebtoken_1 = __importDefault(require("jsonwebtoken"));
-const BadRequestError_1 = __importDefault(require("@/shared/errors/BadRequestError"));
-const NotFoundError_1 = __importDefault(require("@/shared/errors/NotFoundError"));
+const BadRequestError_1 = __importDefault(require("../../shared/errors/BadRequestError"));
+const NotFoundError_1 = __importDefault(require("../../shared/errors/NotFoundError"));
+const bcryptjs_1 = __importDefault(require("bcryptjs"));
 class AuthService {
     constructor(authRepository) {
         this.authRepository = authRepository;
@@ -33,11 +34,12 @@ class AuthService {
             if (existingUser) {
                 throw new AppError_1.default(400, "This email is already registered, please log in instead.");
             }
+            const hashed = yield bcryptjs_1.default.hash(password, 12);
             // Force new registrations to be USER role only for security
             const newUser = yield this.authRepository.createUser({
                 email,
                 name,
-                password,
+                password: hashed,
                 role: client_1.ROLE.USER, // Ignore any role passed from client for security
             });
             const accessToken = authUtils_1.tokenUtils.generateAccessToken(newUser.id);

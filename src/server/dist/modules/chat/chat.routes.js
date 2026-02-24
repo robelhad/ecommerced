@@ -6,8 +6,8 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.configureChatRoutes = void 0;
 const express_1 = __importDefault(require("express"));
 const chat_factory_1 = require("./chat.factory");
-const protect_1 = __importDefault(require("@/shared/middlewares/protect"));
-const upload_1 = __importDefault(require("@/shared/middlewares/upload"));
+const protect_1 = __importDefault(require("../../shared/middlewares/protect"));
+const upload_1 = __importDefault(require("../../shared/middlewares/upload"));
 const configureChatRoutes = (io) => {
     const router = express_1.default.Router();
     const chatController = (0, chat_factory_1.makeChatController)(io);

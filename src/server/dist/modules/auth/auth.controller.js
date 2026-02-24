@@ -25,11 +25,11 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.AuthController = void 0;
 const jsonwebtoken_1 = __importDefault(require("jsonwebtoken"));
-const constants_1 = require("@/shared/constants");
-const asyncHandler_1 = __importDefault(require("@/shared/utils/asyncHandler"));
-const sendResponse_1 = __importDefault(require("@/shared/utils/sendResponse"));
-const authUtils_1 = require("@/shared/utils/authUtils");
-const AppError_1 = __importDefault(require("@/shared/errors/AppError"));
+const constants_1 = require("../../shared/constants");
+const asyncHandler_1 = __importDefault(require("../../shared/utils/asyncHandler"));
+const sendResponse_1 = __importDefault(require("../../shared/utils/sendResponse"));
+const authUtils_1 = require("../../shared/utils/authUtils");
+const AppError_1 = __importDefault(require("../../shared/errors/AppError"));
 const logs_factory_1 = require("../logs/logs.factory");
 const clearCookieOptions = __rest(constants_1.cookieOptions, []);
 class AuthController {

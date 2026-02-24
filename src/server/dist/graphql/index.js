@@ -28,8 +28,8 @@ function configureGraphQL(app) {
         yield apolloServer.start();
         app.use("/api/v1/graphql", (0, cors_1.default)({
             origin: process.env.NODE_ENV === "production"
-                ? ["https://ecommerce-nu-rosy.vercel.app"]
-                : ["http://localhost:3000", "http://localhost:5173"],
+                ? process.env.CLIENT_URL_PROD
+                : ["http://localhost:3000", "http://192.168.161.140:3000", "http://localhost:5173"],
             credentials: true,
             methods: ["GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS"],
             allowedHeaders: [

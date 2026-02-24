@@ -10,7 +10,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.logRequest = void 0;
-const logs_factory_1 = require("@/modules/logs/logs.factory");
+const logs_factory_1 = require("../../modules/logs/logs.factory");
 const logsService = (0, logs_factory_1.makeLogsService)();
 const logRequest = (req, res, next) => __awaiter(void 0, void 0, void 0, function* () {
     const start = Date.now();

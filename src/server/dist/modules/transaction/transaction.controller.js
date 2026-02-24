@@ -13,9 +13,9 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.TransactionController = void 0;
-const asyncHandler_1 = __importDefault(require("@/shared/utils/asyncHandler"));
+const asyncHandler_1 = __importDefault(require("../../shared/utils/asyncHandler"));
 const logs_factory_1 = require("../logs/logs.factory");
-const sendResponse_1 = __importDefault(require("@/shared/utils/sendResponse"));
+const sendResponse_1 = __importDefault(require("../../shared/utils/sendResponse"));
 class TransactionController {
     constructor(transactionService) {
         this.transactionService = transactionService;

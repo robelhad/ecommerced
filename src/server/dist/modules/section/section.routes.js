@@ -5,7 +5,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 const express_1 = require("express");
 const section_factory_1 = require("./section.factory");
-const upload_1 = __importDefault(require("@/shared/middlewares/upload"));
+const upload_1 = __importDefault(require("../../shared/middlewares/upload"));
 const router = (0, express_1.Router)();
 const sectionController = (0, section_factory_1.makeSectionController)();
 /**

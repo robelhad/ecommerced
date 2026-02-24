@@ -13,7 +13,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const AppError_1 = __importDefault(require("../errors/AppError"));
-const database_config_1 = __importDefault(require("@/infra/database/database.config"));
+const database_config_1 = __importDefault(require("../../infra/database/database.config"));
 const authorizeRole = (...allowedRoles) => {
     return (req, res, next) => __awaiter(void 0, void 0, void 0, function* () {
         try {

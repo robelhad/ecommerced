@@ -1,5 +1,5 @@
 "use client";
-import React, { useState, useRef } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import UserMenu from "../molecules/UserMenu";
@@ -21,6 +21,8 @@ import { useAppDispatch } from "@/app/store/hooks";
 import { useSignOutMutation } from "@/app/store/apis/AuthApi";
 import { logout } from "@/app/store/slices/AuthSlice";
 import { generateUserAvatar } from "@/app/utils/placeholderImage";
+import { apiSlice } from "@/app/store/slices/ApiSlice";
+
 
 const Navbar = () => {
   const pathname = usePathname();
@@ -35,6 +37,11 @@ const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
   const menuRef = useRef(null);
   const mobileMenuRef = useRef(null);
+  const [mounted, setMounted] = useState(false);
+
+useEffect(() => {
+  setMounted(true);
+}, []);
 
   useEventListener("scroll", () => {
     setScrolled(window.scrollY > 20);
@@ -47,6 +54,7 @@ const Navbar = () => {
     try {
       await signout();
       dispatch(logout());
+      dispatch(apiSlice.util.resetApiState());
       router.push("/sign-in");
     } catch (error) {
       console.error("Error signing out:", error);
@@ -103,7 +111,7 @@ const Navbar = () => {
               </Link>
 
               {/* User Menu */}
-              {!isLoading && isAuthenticated ? (
+              {mounted && !isLoading && isAuthenticated ? (
                 <div className="relative" ref={menuRef}>
                   <button
                     onClick={() => setMenuOpen(!menuOpen)}
@@ -145,6 +153,7 @@ const Navbar = () => {
                   )}
                 </div>
               ) : (
+                mounted &&
                 pathname !== "/sign-up" &&
                 pathname !== "/sign-in" && (
                   <Link

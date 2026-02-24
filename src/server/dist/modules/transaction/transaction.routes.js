@@ -3,10 +3,10 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-const protect_1 = __importDefault(require("@/shared/middlewares/protect"));
+const protect_1 = __importDefault(require("../../shared/middlewares/protect"));
 const transaction_factory_1 = require("./transaction.factory");
 const express_1 = __importDefault(require("express"));
-const authorizeRole_1 = __importDefault(require("@/shared/middlewares/authorizeRole"));
+const authorizeRole_1 = __importDefault(require("../../shared/middlewares/authorizeRole"));
 const router = express_1.default.Router();
 const transactionController = (0, transaction_factory_1.makeTransactionController)();
 /**

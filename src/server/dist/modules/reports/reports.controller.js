@@ -13,12 +13,12 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.ReportsController = void 0;
-const asyncHandler_1 = __importDefault(require("@/shared/utils/asyncHandler"));
-const AppError_1 = __importDefault(require("@/shared/errors/AppError"));
+const asyncHandler_1 = __importDefault(require("../../shared/utils/asyncHandler"));
+const AppError_1 = __importDefault(require("../../shared/errors/AppError"));
 const logs_factory_1 = require("../logs/logs.factory");
-const generateCsv_1 = __importDefault(require("@/shared/utils/export/generateCsv"));
-const generatePdf_1 = __importDefault(require("@/shared/utils/export/generatePdf"));
-const generateXlsx_1 = __importDefault(require("@/shared/utils/export/generateXlsx"));
+const generateCsv_1 = __importDefault(require("../../shared/utils/export/generateCsv"));
+const generatePdf_1 = __importDefault(require("../../shared/utils/export/generatePdf"));
+const generateXlsx_1 = __importDefault(require("../../shared/utils/export/generateXlsx"));
 class ReportsController {
     constructor(reportsService) {
         this.reportsService = reportsService;

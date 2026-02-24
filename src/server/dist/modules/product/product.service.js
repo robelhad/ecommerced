@@ -57,12 +57,12 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.ProductService = void 0;
-const AppError_1 = __importDefault(require("@/shared/errors/AppError"));
-const ApiFeatures_1 = __importDefault(require("@/shared/utils/ApiFeatures"));
-const slugify_1 = __importDefault(require("@/shared/utils/slugify"));
+const AppError_1 = __importDefault(require("../../shared/errors/AppError"));
+const ApiFeatures_1 = __importDefault(require("../../shared/utils/ApiFeatures"));
+const slugify_1 = __importDefault(require("../../shared/utils/slugify"));
 const sync_1 = require("csv-parse/sync");
 const XLSX = __importStar(require("xlsx"));
-const database_config_1 = __importDefault(require("@/infra/database/database.config"));
+const database_config_1 = __importDefault(require("../../infra/database/database.config"));
 class ProductService {
     constructor(productRepository, attributeRepository, variantRepository) {
         this.productRepository = productRepository;

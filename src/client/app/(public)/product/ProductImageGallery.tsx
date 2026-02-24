@@ -165,7 +165,7 @@ const ProductImageGallery: React.FC<ProductImageGalleryProps> = ({
             >
               <div className="relative w-20 h-20">
                 <Image
-                  src={img}
+                  src={process.env.NEXT_PUBLIC_API_URL + '/image/' + img}
                   alt={`${name} thumbnail ${index + 1}`}
                   fill
                   sizes="80px"
@@ -235,7 +235,7 @@ const ProductImageGallery: React.FC<ProductImageGalleryProps> = ({
               } overflow-hidden rounded-xl`}
             >
               <Image
-                src={selectedImage}
+                src={process.env.NEXT_PUBLIC_API_URL + '/image/' + selectedImage}
                 alt={name}
                 fill
                 sizes="(max-width: 768px) 100vw, 50vw"

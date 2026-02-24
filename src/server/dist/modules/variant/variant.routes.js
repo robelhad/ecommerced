@@ -5,7 +5,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 const express_1 = __importDefault(require("express"));
 const variant_factory_1 = require("./variant.factory");
-const protect_1 = __importDefault(require("@/shared/middlewares/protect"));
+const protect_1 = __importDefault(require("../../shared/middlewares/protect"));
 const router = express_1.default.Router();
 const controller = (0, variant_factory_1.makeVariantController)();
 router.get("/", controller.getAllVariants);

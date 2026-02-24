@@ -4,8 +4,8 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const express_1 = __importDefault(require("express"));
-const protect_1 = __importDefault(require("@/shared/middlewares/protect"));
-const authorizeRole_1 = __importDefault(require("@/shared/middlewares/authorizeRole"));
+const protect_1 = __importDefault(require("../../shared/middlewares/protect"));
+const authorizeRole_1 = __importDefault(require("../../shared/middlewares/authorizeRole"));
 const order_factory_1 = require("./order.factory");
 const router = express_1.default.Router();
 const orderController = (0, order_factory_1.makeOrderController)();

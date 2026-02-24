@@ -90,6 +90,7 @@ const ListItem = ({
         <div className="flex items-center gap-3">
           <div className="relative">
             <div className="w-12 h-12 rounded-lg overflow-hidden bg-gray-100 flex items-center justify-center">
+              
               {item.image ? (
                 <Image
                   src={item.image}

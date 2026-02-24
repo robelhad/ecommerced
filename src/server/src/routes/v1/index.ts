@@ -1,5 +1,6 @@
 
 import { Router } from "express";
+import express from "express";
 import { Server as SocketIOServer } from "socket.io";
 import usersRoutes from "@/modules/user/user.routes";
 import authRoutes from "@/modules/auth/auth.routes";
@@ -23,7 +24,8 @@ import logRoutes from "@/modules/logs/logs.routes";
 import sectionRoutes from "@/modules/section/section.routes";
 import { configureChatRoutes } from "@/modules/chat/chat.routes";
 import attributesRoutes from "@/modules/attribute/attribute.routes";
-import variantsRoutes from '@/modules/variant/variant.routes'
+import variantsRoutes from '@/modules/variant/variant.routes';
+import path from "path";
 
 export const configureV1Routes = (io: SocketIOServer) => {
   const router = Router();
@@ -46,7 +48,22 @@ export const configureV1Routes = (io: SocketIOServer) => {
   router.use("/sections", sectionRoutes);
   router.use("/attributes", attributesRoutes);
   router.use("/chat", configureChatRoutes(io));
-  router.use('/variants', variantsRoutes)
+  router.use('/variants', variantsRoutes);
+console.log(path.join(process.cwd(), "../../assets/seed-images/products"));
+  router.use(
+  "/image",
+  express.static(
+    path.join(process.cwd(), "../../assets/seed-images/products")
+  )
+);
+
+// Serve category images
+router.use(
+  "/catimage",
+  express.static(
+    path.join(process.cwd(), "../../assets/seed-images/categories")
+  )
+);
 
   return router;
 };

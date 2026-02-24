@@ -13,8 +13,8 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.LogsController = void 0;
-const asyncHandler_1 = __importDefault(require("@/shared/utils/asyncHandler"));
-const sendResponse_1 = __importDefault(require("@/shared/utils/sendResponse"));
+const asyncHandler_1 = __importDefault(require("../../shared/utils/asyncHandler"));
+const sendResponse_1 = __importDefault(require("../../shared/utils/sendResponse"));
 class LogsController {
     constructor(logsService) {
         this.logsService = logsService;

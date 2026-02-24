@@ -15,10 +15,10 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const express_1 = __importDefault(require("express"));
 const auth_factory_1 = require("./auth.factory");
 const passport_1 = __importDefault(require("passport"));
-const constants_1 = require("@/shared/constants");
+const constants_1 = require("../../shared/constants");
 const cart_service_1 = require("../cart/cart.service");
 const cart_repository_1 = require("../cart/cart.repository");
-const handleSocialLogin_1 = __importDefault(require("@/shared/utils/auth/handleSocialLogin"));
+const handleSocialLogin_1 = __importDefault(require("../../shared/utils/auth/handleSocialLogin"));
 const router = express_1.default.Router();
 const authController = (0, auth_factory_1.makeAuthController)();
 const cartService = new cart_service_1.CartService(new cart_repository_1.CartRepository());
@@ -49,6 +49,10 @@ router.get("/google/callback", passport_1.default.authenticate("google", {
     yield (cartService === null || cartService === void 0 ? void 0 : cartService.mergeCartsOnLogin(sessionId, userId));
     res.redirect(env === "production" ? CLIENT_URL_PROD : CLIENT_URL_DEV);
 }));
+router.get("/microsoft", (0, handleSocialLogin_1.default)("microsoft"));
+router.get("/microsoft/callback", passport_1.default.authenticate("microsoft", { failureRedirect: "/auth/login?error=microsoft", session: true, }), (req, res) => {
+    res.redirect(process.env.CLIENT_APP_URL || "http://localhost:3000");
+});
 /**
  * @swagger
  * /google/callback:

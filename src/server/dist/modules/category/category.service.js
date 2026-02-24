@@ -13,10 +13,10 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.CategoryService = void 0;
-const AppError_1 = __importDefault(require("@/shared/errors/AppError"));
-const slugify_1 = __importDefault(require("@/shared/utils/slugify"));
-const ApiFeatures_1 = __importDefault(require("@/shared/utils/ApiFeatures"));
-const database_config_1 = __importDefault(require("@/infra/database/database.config"));
+const AppError_1 = __importDefault(require("../../shared/errors/AppError"));
+const slugify_1 = __importDefault(require("../../shared/utils/slugify"));
+const ApiFeatures_1 = __importDefault(require("../../shared/utils/ApiFeatures"));
+const database_config_1 = __importDefault(require("../../infra/database/database.config"));
 class CategoryService {
     constructor(categoryRepository) {
         this.categoryRepository = categoryRepository;

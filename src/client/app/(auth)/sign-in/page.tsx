@@ -12,6 +12,7 @@ import TwitterIcon from "@/app/assets/icons/twitter.png";
 import MicrosoftIcon from "@/app/assets/icons/microsoft.png";
 import Image from "next/image";
 import { AUTH_API_BASE_URL } from "@/app/lib/constants/config";
+import { setErrorMap } from "zod";
 //import { SocialLoginButtons } from "@/components/auth/SocialLoginButtons";
 
 const backendUrl = process.env.NEXT_PUBLIC_API_URL || "http://localhost:5000";
@@ -32,6 +33,7 @@ const SignIn = () => {
   const {
     control,
     handleSubmit,
+    setError,
     formState: { errors },
   } = useForm<InputForm>({
     defaultValues: {
@@ -44,8 +46,15 @@ const SignIn = () => {
     try {
       await signIn(formData).unwrap();
       router.push("/");
-    } catch (error) {
-      console.log("error: ", error);
+    } catch (err: any) {
+      console.log("error: ", err);
+      const message = err?.data?.message || 
+      err?.error || "Something went wrong. Please try again.";
+
+      setError("root",{
+        type:"server",
+        message,
+    });
     }
   };
 
@@ -61,12 +70,15 @@ const SignIn = () => {
           <h2 className="text-2xl sm:text-3xl font-semibold text-gray-800 text-center mb-6">
             Sign In
           </h2>
-            
-          {error && (
+
+          {errors.root && (
             <div className="bg-red-50 border border-red-300 text-red-600 text-center text-sm p-3 rounded mb-4">
-              An unexpected error occurred
+            
+                   {errors.root.message}
+             
             </div>
-          )}
+          )}  
+          
 
           <form onSubmit={handleSubmit(onSubmit)} className="space-y-4">
             <Input

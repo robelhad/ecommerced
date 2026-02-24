@@ -13,8 +13,8 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.CheckoutService = void 0;
-const stripe_1 = __importDefault(require("@/infra/payment/stripe"));
-const AppError_1 = __importDefault(require("@/shared/errors/AppError"));
+const stripe_1 = __importDefault(require("../../infra/payment/stripe"));
+const AppError_1 = __importDefault(require("../../shared/errors/AppError"));
 const PLACEHOLDER_IMAGE = "https://via.placeholder.com/150";
 function safeImage(images = []) {
     return (images === null || images === void 0 ? void 0 : images[0]) || PLACEHOLDER_IMAGE;
@@ -51,6 +51,7 @@ class CheckoutService {
             const clientUrl = isProduction
                 ? process.env.CLIENT_URL_PROD
                 : process.env.CLIENT_URL_DEV;
+            console.log(clientUrl);
             const session = yield stripe_1.default.checkout.sessions.create({
                 payment_method_types: ["card"],
                 line_items: lineItems,

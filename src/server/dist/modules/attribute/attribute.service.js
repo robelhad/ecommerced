@@ -13,9 +13,9 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.AttributeService = void 0;
-const AppError_1 = __importDefault(require("@/shared/errors/AppError"));
-const slugify_1 = __importDefault(require("@/shared/utils/slugify"));
-const ApiFeatures_1 = __importDefault(require("@/shared/utils/ApiFeatures"));
+const AppError_1 = __importDefault(require("../../shared/errors/AppError"));
+const slugify_1 = __importDefault(require("../../shared/utils/slugify"));
+const ApiFeatures_1 = __importDefault(require("../../shared/utils/ApiFeatures"));
 class AttributeService {
     constructor(attributeRepository) {
         this.attributeRepository = attributeRepository;

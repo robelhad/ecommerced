@@ -13,7 +13,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.AddressService = void 0;
-const AppError_1 = __importDefault(require("@/shared/errors/AppError"));
+const AppError_1 = __importDefault(require("../../shared/errors/AppError"));
 class AddressService {
     constructor(addressRepository) {
         this.addressRepository = addressRepository;

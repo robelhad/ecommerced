@@ -135,7 +135,7 @@ const CategoryBar = () => {
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 max-w-7xl mx-auto">
           {categories.map((category, index) => {
             const hasImages = category.images && category.images.length > 0;
-            const imageSrc = hasImages ? category.images[0] : null;
+            const imageSrc = hasImages ? process.env.NEXT_PUBLIC_API_URL + '/catimage/' + category.images[0] : null;
             const Icon = getCategoryIcon(category.name);
 
             return (
@@ -157,7 +157,7 @@ const CategoryBar = () => {
                       <motion.div
                         whileHover={{ scale: 1.1 }}
                         transition={{ duration: 0.3 }}
-                        className="w-full h-24 bg-gray-100 rounded-lg overflow-hidden group-hover:shadow-lg transition-all duration-300 flex items-center justify-center"
+                        className="relative w-full h-24 bg-gray-100 rounded-lg overflow-hidden group-hover:shadow-lg transition-all duration-300 flex items-center justify-center"
                       >
                         {hasImages && imageSrc ? (
                           <>

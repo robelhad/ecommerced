@@ -5,7 +5,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 const express_1 = __importDefault(require("express"));
 const cart_factory_1 = require("./cart.factory");
-const optionalAuth_1 = __importDefault(require("@/shared/middlewares/optionalAuth"));
+const optionalAuth_1 = __importDefault(require("../../shared/middlewares/optionalAuth"));
 const router = express_1.default.Router();
 const cartController = (0, cart_factory_1.makeCartController)();
 /**

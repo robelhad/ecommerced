@@ -13,7 +13,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.searchDashboardResolver = void 0;
-const searchModel_1 = __importDefault(require("@/shared/utils/searchModel"));
+const searchModel_1 = __importDefault(require("../../../../shared/utils/searchModel"));
 exports.searchDashboardResolver = {
     Query: {
         searchDashboard: (_1, _a, _b) => __awaiter(void 0, [_1, _a, _b], void 0, function* (_, { params }, { prisma }) {

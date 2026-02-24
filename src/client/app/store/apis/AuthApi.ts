@@ -22,9 +22,15 @@ export const authApi = apiSlice.injectEndpoints({
         body: credentials,
       }),
       onQueryStarted: async (_, { dispatch, queryFulfilled }) => {
-        const { data } = await queryFulfilled;
+        try {
+          const { data } = await queryFulfilled;
+          dispatch(setUser({ user: data.user }));
+        } catch (err) {
+          throw err;
+        }
+        
         // Backend returns { success, message, user }
-        dispatch(setUser({ user: data.user }));
+        
       },
     }),
     signup: builder.mutation<

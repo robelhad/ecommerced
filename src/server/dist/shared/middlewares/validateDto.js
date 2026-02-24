@@ -16,7 +16,7 @@ exports.validateDto = validateDto;
 const class_transformer_1 = require("class-transformer");
 const class_validator_1 = require("class-validator");
 const AppError_1 = __importDefault(require("../errors/AppError"));
-const logger_1 = __importDefault(require("@/infra/winston/logger"));
+const logger_1 = __importDefault(require("../../infra/winston/logger"));
 function validateDto(type) {
     return (req, res, next) => __awaiter(this, void 0, void 0, function* () {
         const dtoObj = (0, class_transformer_1.plainToInstance)(type, req.body);

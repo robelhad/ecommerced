@@ -5,7 +5,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 const express_1 = require("express");
 const analytics_factory_1 = require("./analytics.factory");
-const protect_1 = __importDefault(require("@/shared/middlewares/protect"));
+const protect_1 = __importDefault(require("../../shared/middlewares/protect"));
 const router = (0, express_1.Router)();
 const controller = (0, analytics_factory_1.makeAnalyticsController)();
 /**

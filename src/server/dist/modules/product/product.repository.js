@@ -24,7 +24,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.ProductRepository = void 0;
-const database_config_1 = __importDefault(require("@/infra/database/database.config"));
+const database_config_1 = __importDefault(require("../../infra/database/database.config"));
 class ProductRepository {
     findManyProducts(params) {
         return __awaiter(this, void 0, void 0, function* () {
@@ -42,13 +42,17 @@ class ProductRepository {
                     },
                 }
                 : {}));
-            return database_config_1.default.product.findMany({
+            const queryOptions = {
                 where: finalWhere,
                 orderBy,
                 skip,
                 take,
-                select,
-                include: {
+            };
+            if (select) {
+                queryOptions.select = select;
+            }
+            else {
+                queryOptions.include = {
                     variants: {
                         include: {
                             attributes: {
@@ -59,8 +63,9 @@ class ProductRepository {
                             },
                         },
                     },
-                },
-            });
+                };
+            }
+            return database_config_1.default.product.findMany(queryOptions);
         });
     }
     countProducts(params) {

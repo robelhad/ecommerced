@@ -9,7 +9,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-const analytics_1 = require("@/shared/utils/analytics");
+const analytics_1 = require("../../../../shared/utils/analytics");
 const interactionAnalytics = {
     Query: {
         interactionAnalytics: (_1, _a, _b) => __awaiter(void 0, [_1, _a, _b], void 0, function* (_, { params }, { prisma }) {

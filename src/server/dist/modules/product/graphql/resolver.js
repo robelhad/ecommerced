@@ -13,7 +13,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.productResolvers = void 0;
-const AppError_1 = __importDefault(require("@/shared/errors/AppError"));
+const AppError_1 = __importDefault(require("../../../shared/errors/AppError"));
 exports.productResolvers = {
     Query: {
         products: (_1, _a, context_1) => __awaiter(void 0, [_1, _a, context_1], void 0, function* (_, { first = 10, skip = 0, filters = {}, }, context) {

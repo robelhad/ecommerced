@@ -13,8 +13,8 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.OrderService = void 0;
-const AppError_1 = __importDefault(require("@/shared/errors/AppError"));
-const database_config_1 = __importDefault(require("@/infra/database/database.config"));
+const AppError_1 = __importDefault(require("../../shared/errors/AppError"));
+const database_config_1 = __importDefault(require("../../infra/database/database.config"));
 class OrderService {
     constructor(orderRepository) {
         this.orderRepository = orderRepository;

@@ -14,9 +14,9 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.WebhookService = void 0;
 const client_1 = require("@prisma/client");
-const stripe_1 = __importDefault(require("@/infra/payment/stripe"));
-const AppError_1 = __importDefault(require("@/shared/errors/AppError"));
-const redis_1 = __importDefault(require("@/infra/cache/redis"));
+const stripe_1 = __importDefault(require("../../infra/payment/stripe"));
+const AppError_1 = __importDefault(require("../../shared/errors/AppError"));
+const redis_1 = __importDefault(require("../../infra/cache/redis"));
 const logs_factory_1 = require("../logs/logs.factory");
 const cart_service_1 = require("../cart/cart.service");
 const cart_repository_1 = require("../cart/cart.repository");
