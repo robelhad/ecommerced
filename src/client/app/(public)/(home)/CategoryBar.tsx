@@ -135,7 +135,7 @@ const CategoryBar = () => {
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 max-w-7xl mx-auto">
           {categories.map((category, index) => {
             const hasImages = category.images && category.images.length > 0;
-            const imageSrc = hasImages ? process.env.NEXT_PUBLIC_API_URL + '/catimage/' + category.images[0] : null;
+            const imageSrc = hasImages ? process.env.NEXT_PUBLIC_API_URL_PROD + '/catimage/' + category.images[0] : null;
             const Icon = getCategoryIcon(category.name);
 
             return (

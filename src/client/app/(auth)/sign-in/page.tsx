@@ -14,12 +14,12 @@ import Image from "next/image";
 import { AUTH_API_BASE_URL } from "@/app/lib/constants/config";
 import { setErrorMap } from "zod";
 //import { SocialLoginButtons } from "@/components/auth/SocialLoginButtons";
-
+/*
 const backendUrl = process.env.NEXT_PUBLIC_API_URL || "http://192.168/161/140:5000";
 const handleMicrosoftLogin = () => {
     window.location.href = `${backendUrl}/auth/microsoft`;
   };
-
+*/
 
 interface InputForm {
   email: string;

@@ -1,9 +1,9 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  eslint: {
-    ignoreDuringBuilds: true,
-  },
+//  eslint: {
+//    ignoreDuringBuilds: true,
+ // },
   typescript: {
     // !! WARN !!
     // Dangerously allow production builds to successfully complete even if
@@ -23,14 +23,14 @@ const nextConfig: NextConfig = {
       "res.cloudinary.com",
       "pbs.twimg.com",
       "store.storeimages.cdn-apple.com",
+      "ecommerce-hvqn.onrender.com",
       "192.168.161.140",
     ],
     remotePatterns: [
       {
-        protocol: 'http',
-        hostname: '192.168.161.140',
-        port: '5000',
-        pathname: '/images/**',
+        protocol: 'https',
+        hostname: 'ecommerce-hvqn.onrender.com',
+        pathname: '/api/v1/image/**',
       },
     ],
   },
