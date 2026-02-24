@@ -1,7 +1,7 @@
 "use client";
 
 export function SocialLoginButtons() {
-  const backendUrl = process.env.NEXT_PUBLIC_API_URL || "http://localhost:5000";
+  const backendUrl = process.env.NEXT_PUBLIC_API_URL || "http://192.168.161.140:5000";
 
   const handleGoogleLogin = () => {
     window.location.href = `${backendUrl}/auth/google`;
