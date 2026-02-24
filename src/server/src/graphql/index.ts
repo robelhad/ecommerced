@@ -20,8 +20,8 @@ export async function configureGraphQL(app: express.Application) {
     cors({
       origin:
         process.env.NODE_ENV === "production"
-          ? process.env.CLIENT_URL_PROD!
-          : ["http://localhost:3000","http://192.168.161.140:3000", "http://localhost:5173"],
+          ? [process.env.CLIENT_URL_PROD!, "https://ecommerce-sepia-iota-43.vercel.app/"]
+          : ["http://localhost:3000","http://192.168.161.140:3000", "http://localhost:5173","https://ecommerce-sepia-iota-43.vercel.app/"],
       credentials: true,
       methods: ["GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS"],
       allowedHeaders: [

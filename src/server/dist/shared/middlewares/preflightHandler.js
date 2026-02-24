@@ -1,11 +1,15 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.preflightHandler = void 0;
+const allowedOrigin = "https://ecommerce-sepia-iota-43.vercel.app";
 const preflightHandler = (req, res, next) => {
     // Handle preflight requests
     if (req.method === "OPTIONS") {
         // Set CORS headers for preflight
-        res.header("Access-Control-Allow-Origin", req.headers.origin || "*");
+        //res.header("Access-Control-Allow-Origin", req.headers.origin || "*");
+        if (req.headers.origin === allowedOrigin) {
+            res.header("Access-Control-Allow-Origin", allowedOrigin);
+        }
         res.header("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE, PATCH, OPTIONS");
         res.header("Access-Control-Allow-Headers", [
             "Origin",
@@ -22,6 +26,7 @@ const preflightHandler = (req, res, next) => {
         ].join(", "));
         res.header("Access-Control-Allow-Credentials", "true");
         res.header("Access-Control-Max-Age", "86400"); // 24 hours
+        res.header("Vary", "Origin");
         // End preflight request
         res.status(200).end();
         return;

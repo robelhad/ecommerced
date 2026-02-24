@@ -141,6 +141,7 @@ export const createApp = async () => {
   const allowedOrigins =[
         process.env.CLIENT_URL_PROD,
         process.env.CLIENT_URL_DEV,
+        "https://ecommerce-sepia-iota-43.vercel.app",
         "http://192.168.161.140:3000",
         "http://192.168.161.140:5173",
         "http://localhost:5173",

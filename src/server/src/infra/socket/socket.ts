@@ -9,8 +9,8 @@ export class SocketManager {
       cors: {
         origin:
           process.env.NODE_ENV === "production"
-            ? process.env.CLIENT_URL_PROD!    //["https://ecommerce-nu-rosy.vercel.app"]
-            : ["http://localhost:3000","http://192.168.161.140:3000", "http://localhost:5173"],
+            ? [process.env.CLIENT_URL_PROD!, "https://ecommerce-sepia-iota-43.vercel.app"]    //["https://ecommerce-nu-rosy.vercel.app"]
+            : ["http://localhost:3000","http://192.168.161.140:3000", "http://localhost:5173","https://ecommerce-sepia-iota-43.vercel.app"],
         methods: ["GET", "POST"],
         credentials: true,
       },
