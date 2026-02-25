@@ -46,7 +46,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
         <Link href={`/product/${product.slug}`} className="block w-full h-full">
           <Image
             src={product.variants[0]?.images[0]?
-              process.env.NEXT_PUBLIC_API_URL_PROD + '/image/' + product.variants[0]?.images[0] 
+              `${process.env.NEXT_PUBLIC_API_URL_PROD}/image/${product.variants[0]?.images[0]}` 
               : generateProductPlaceholder(product.name)
             }
             alt={product.name}
